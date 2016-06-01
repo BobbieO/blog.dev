@@ -46,6 +46,32 @@ Route::get('/wizard', function()
     return View::make('wizard');
 });
 
+Route::get('/basicCalculator', function()
+{
+    return View::make('basicCalculator');
+});
+
+Route::get('/catchabutterfly', function()
+{
+    return View::make('catchabutterfly');
+});
+
+Route::get('/randomQuestGen', function()
+{
+    return View::make('randomQuestGen');
+});
+
+Route::get('/simpleSimon', function()
+{
+    return View::make('simpleSimon');
+});
+
+Route::get('/weatherMap', function()
+{
+    return View::make('weatherMap');
+});
+
+
 
 
 
