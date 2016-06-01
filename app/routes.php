@@ -16,25 +16,9 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('/resume', function()
-{
-    return "This is my resume.";
-});
+Route::get('/resume', 'HomeController@showResume');
 
-Route::get('/rolldice/{guess}', function($guess)
-{
-    $random = mt_rand(1, 6);
-
-    if($random == $guess) {
-        $message = "You won!";
-    } else {
-        $message = "You lost, try again.";
-    }
-
-    $data = array('number' => $random, 'guess' => $guess, 'message' => $message);
-
-    return View::make('roll-dice')->with($data);  
-});
+Route::get('/rolldice/{guess}', 'HomeController@rollDice');
 
 Route::get('/home', function()
 {
