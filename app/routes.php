@@ -26,3 +26,20 @@ Route::get('portfolio', function()
     return "This is my portfolio.";
 });
 
+Route::get('/rolldice/{guess}', function($guess)
+{
+    $random = rand(1, 6);
+
+    if($random==$guess) {
+        $message = "You won!";
+    } else {
+        $message = "You lost, try again.";
+    }
+
+    $data = array('number' => $random, 'guess' => $guess, 'message' => $message);
+
+    return View::make('roll-dice')->with($data);  
+});
+
+
+
