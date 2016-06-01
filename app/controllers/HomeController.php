@@ -40,15 +40,40 @@ class HomeController extends BaseController {
     	return "This is my resume.";
 	}
 
-	
+	public function showHome()
+	{
+    	return View::make('home');
+	}
 
+	public function showCalculator()
+	{
+    	return View::make('basicCalculator');
+	}
 
+	public function showWizard()
+	{
+    	return View::make('wizard');
+	}
 
+	public function showButterfly()
+	{
+    	return View::make('catchabutterfly');
+	}
 
-	
+	public function randomQuest()
+	{
+    	return View::make('randomQuestGen');
+	}
 
+	public function simpleSimon()
+	{
+    	return View::make('simpleSimon');
+	}
 
-
+	public function weatherMap()
+	{
+    	return View::make('weatherMap');
+	}
 }
 
 

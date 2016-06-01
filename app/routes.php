@@ -20,40 +20,19 @@ Route::get('/resume', 'HomeController@showResume');
 
 Route::get('/rolldice/{guess}', 'HomeController@rollDice');
 
-Route::get('/home', function()
-{
-    return View::make('home');
-});
+Route::get('/home', 'HomeController@showHome');
 
-Route::get('/wizard', function()
-{
-    return View::make('wizard');
-});
+Route::get('/wizard', 'HomeController@showWizard');
 
-Route::get('/basicCalculator', function()
-{
-    return View::make('basicCalculator');
-});
+Route::get('/basicCalculator', 'HomeController@showCalculator');
 
-Route::get('/catchabutterfly', function()
-{
-    return View::make('catchabutterfly');
-});
+Route::get('/catchabutterfly', 'HomeController@showButterfly'); 
 
-Route::get('/randomQuestGen', function()
-{
-    return View::make('randomQuestGen');
-});
+Route::get('/randomQuestGen', 'HomeController@randomQuest');
 
-Route::get('/simpleSimon', function()
-{
-    return View::make('simpleSimon');
-});
+Route::get('/simpleSimon', 'HomeController@simpleSimon');
 
-Route::get('/weatherMap', function()
-{
-    return View::make('weatherMap');
-});
+Route::get('/weatherMap', 'HomeController@weatherMap');
 
 
 
