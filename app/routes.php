@@ -41,5 +41,9 @@ Route::get('/rolldice/{guess}', function($guess)
     return View::make('roll-dice')->with($data);  
 });
 
+Route::get('/home', function()
+{
+    return View::make('home');
+});
 
 
