@@ -8,8 +8,8 @@
     <main>
         <div class="center container">
             <div class="right">
-                <a href="/simpleSimon.php"><i class="nav-arrow medium material-icons">navigate_before</i></a>
-                <a href="/basicCalculator.php"><i class="nav-arrow medium material-icons">navigate_next</i></a>
+                <a href="{{{action('HomeController@showSimpleSimon')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
+                <a href="{{{action('HomeController@showCalculator')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
             <h1>Weather Map</h1>
             <p>

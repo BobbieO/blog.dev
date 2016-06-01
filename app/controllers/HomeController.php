@@ -60,17 +60,17 @@ class HomeController extends BaseController {
     	return View::make('catchabutterfly');
 	}
 
-	public function randomQuest()
+	public function showRandomQuest()
 	{
     	return View::make('randomQuestGen');
 	}
 
-	public function simpleSimon()
+	public function showSimpleSimon()
 	{
     	return View::make('simpleSimon');
 	}
 
-	public function weatherMap()
+	public function showWeatherMap()
 	{
     	return View::make('weatherMap');
 	}

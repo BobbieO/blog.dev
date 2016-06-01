@@ -9,7 +9,7 @@
     <main>
         <div class="center container">
             <div class="right">
-                <a href="/basicCalculator.php"><i class="nav-arrow medium material-icons">navigate_before</i></a>
+                <a href="{{{action('HomeController@showCalculator')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
             </div>
             <h1>Random Quest Generator</h1>
             <p>

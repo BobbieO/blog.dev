@@ -8,7 +8,7 @@
     <main>
         <div class="center container">
             <div class="right">
-                <a href="/catchabutterfly.php"><i class="nav-arrow medium material-icons">navigate_next</i></a>
+                <a href="{{{action('HomeController@showButterfly')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
             
             <h1>Wizard Vs Dragon</h1>

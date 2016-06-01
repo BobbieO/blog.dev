@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', 'HomeController@showWelcome');
 
 Route::get('/resume', 'HomeController@showResume');
 
@@ -28,11 +25,11 @@ Route::get('/basicCalculator', 'HomeController@showCalculator');
 
 Route::get('/catchabutterfly', 'HomeController@showButterfly'); 
 
-Route::get('/randomQuestGen', 'HomeController@randomQuest');
+Route::get('/randomQuestGen', 'HomeController@showRandomQuest');
 
-Route::get('/simpleSimon', 'HomeController@simpleSimon');
+Route::get('/simpleSimon', 'HomeController@showSimpleSimon');
 
-Route::get('/weatherMap', 'HomeController@weatherMap');
+Route::get('/weatherMap', 'HomeController@showWeatherMap');
 
 
 

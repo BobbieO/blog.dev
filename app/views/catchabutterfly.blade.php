@@ -8,8 +8,8 @@
     <main>
         <div class="center container">
             <div class="right">
-                <a href="/wizard.php"><i class="nav-arrow medium material-icons">navigate_before</i></a>
-                <a href="/simpleSimon.php"><i class="nav-arrow medium material-icons">navigate_next</i></a>
+                <a href="{{{action('HomeController@showWizard')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
+                <a href="{{{action('HomeController@showSimpleSimon')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
             <h1>Catch a Butterfly</h1>
             <p>

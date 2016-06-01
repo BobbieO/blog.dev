@@ -9,8 +9,8 @@
     <main>
         <div class="center container">
             <div class="right">
-                <a href="/weathermap.php"><i class="nav-arrow medium material-icons">navigate_before</i></a>
-                <a href="/randomQuestGen.php"><i class="nav-arrow medium material-icons">navigate_next</i></a>
+                <a href="{{{action('HomeController@showWeatherMap')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
+                <a href="{{{action('HomeController@showRandomQuest')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
             <h1>Basic Calculator</h1>
             <p>
