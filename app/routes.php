@@ -21,11 +21,6 @@ Route::get('/resume', function()
     return "This is my resume.";
 });
 
-Route::get('portfolio', function()
-{
-    return "This is my portfolio.";
-});
-
 Route::get('/rolldice/{guess}', function($guess)
 {
     $random = mt_rand(1, 6);
@@ -45,5 +40,12 @@ Route::get('/home', function()
 {
     return View::make('home');
 });
+
+Route::get('/wizard', function()
+{
+    return View::make('wizard');
+});
+
+
 
 
