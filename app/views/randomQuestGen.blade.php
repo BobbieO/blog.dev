@@ -7,7 +7,7 @@
 @section('content')
 
     <main>
-        <div class="center container">
+        <div class="center-align container">
             <div class="right">
                 <a href="{{{action('HomeController@showCalculator')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
             </div>
@@ -23,7 +23,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3 class="center">Instructions</h2>
+                <h3 class="center-align">Instructions</h2>
                     <ol>
                         <li>Wait for the characters to finish talking.</li>
                         <li>Click the scroll to see your quest.</li>
@@ -32,12 +32,12 @@
                     </ol>
                 </div>
                 <div class="col s6 instrImg">
-                    <h3 class="center">Click to View</h3>
-                    <div class="center">
+                    <h3 class="center-align">Click to View</h3>
+                    <div class="center-align">
                         <a href="#" target="_blank"><img src="/img/screenShotRandQuest.png"></a>
                     </div>
                 </div>
-                <div class="center">
+                <div class="center-align">
                     <a class="linkColor" href="#" target="_blank">View code on GitHub</a>
                 </div>
             </div>
