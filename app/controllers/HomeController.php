@@ -37,7 +37,7 @@ class HomeController extends BaseController {
 
 	public function showResume()
 	{
-    	return "This is my resume.";
+    	return View::make('resume');
 	}
 
 	public function showHome()
