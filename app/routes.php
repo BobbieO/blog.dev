@@ -34,6 +34,12 @@ Route::get('/weatherMap', 'HomeController@showWeatherMap');
 Route::resource('posts', 'PostsController');
 
 
+Route::get('orm-test', function ()
+{
+    // test code here
+    $posts = Post::all();
+    return $posts;
+});
 
 
 
