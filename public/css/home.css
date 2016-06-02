@@ -50,7 +50,7 @@ img {
     box-shadow: 4px 4px 3px #191919;
 }
 
-a.linkColor, a {
+a.linkColor, a, .post-title-color {
     color: #9c27b0;
 }
 

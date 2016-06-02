@@ -7,17 +7,18 @@
 @section('content')
 
     <main>
-    <div class="container"> 
+    <div class="container text"> 
         <div class="row">
             <div class="col s12">
-                <h1>Bobbie's Blog</h1>
+                <h2>Bobbie's Blog</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="col sm8">
-                <h3>{{{$post->title}}}</h3>
-                <p>{{{$post->content}}}</p>
+            <div class="col s8 offset-s2">
+                <h3 class="center-align post-title-color">{{{$post->title}}}</h3>
+                <p class="left-align">{{{$post->content}}}</p>
+                <p class="right-align">Written on: {{{$post->created_at}}}</p>
             </div>
         </div>
 
