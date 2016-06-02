@@ -6,7 +6,7 @@
 
 @section('content')
     <main>
-        <div class="center container">
+        <div class="center-align container">
             <div class="right">
                 <a href="{{{action('HomeController@showWizard')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
                 <a href="{{{action('HomeController@showSimpleSimon')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
@@ -31,7 +31,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3 class="center">Game Instructions</h3>
+                <h3 class="center-align">Game Instructions</h3>
                     <ol>
                         <li>Click "Start" to begin.</li>
                         <li>Butterflies will appear and timer will start its countdown.</li>
@@ -42,12 +42,12 @@
                     </ol>
                 </div>
                 <div class="col s6 instrImg">
-                    <h3 class="center">Click to Play</h3>
-                    <div class="center">
+                    <h3 class="center-align">Click to Play</h3>
+                    <div class="center-align">
                         <a href="http://bobbieo.github.io/catchabutterfly.html" target="_blank"><img src="/img/screenShotCaB.png"></a>
                     </div>
                 </div>
-                <div class="center">
+                <div class="center-align">
                     <a class="linkColor" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/catchabutterfly.html" target="_blank">View code on GitHub</a>
                 </div>
             </div>
