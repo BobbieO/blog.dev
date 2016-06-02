@@ -31,6 +31,8 @@ Route::get('/simpleSimon', 'HomeController@showSimpleSimon');
 
 Route::get('/weatherMap', 'HomeController@showWeatherMap');
 
+Route::resource('posts', 'PostsController');
+
 
 
 
