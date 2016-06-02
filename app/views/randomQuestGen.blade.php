@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="center-align">
-                    <a class="linkColor" href="#" target="_blank">View code on GitHub</a>
+                    <a class="purple-text" href="#" target="_blank">View code on GitHub</a>
                 </div>
             </div>
         </div>

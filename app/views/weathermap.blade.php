@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="center-align">
-                    <a class="linkColor" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/weather_map.html" target="_blank">View code on GitHub</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/weather_map.html" target="_blank">View code on GitHub</a>
                 </div>
             </div>
         </div>
