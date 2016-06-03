@@ -22,7 +22,7 @@
 <body>
     <header>
         <nav>
-            <div class="nav-wrapper grey darken-3">
+            <div class="nav-wrapper">
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
                 <ul class="text right"> 
                     <li><a href="{{{action('HomeController@showIndex')}}}">Show All Posts</a></li>

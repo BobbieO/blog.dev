@@ -16,11 +16,14 @@ body {
 
 nav .nav-wrapper {
     height: 100%;
+    background-color: #5f5673;
 }
 
 nav .brand-logo, nav ul a {
+    color: #efebd9;
     padding-left: 30px;
     padding-right: 30px;
+    text-shadow: 1px 1px #3b3b35;
 }
 
 /*to size grey band at bottom*/
@@ -39,10 +42,14 @@ a, .post-title {
 
 .btn {
     background-color: #5F5673;
+    color: #efebd9;
+    text-shadow: 1px 1px #3b3b35;
 }
 
 .btn:hover {
     background-color: #2F2545;
+    color: #efebd9;
+    text-shadow: 1px 1px #3b3b35;
 }
 
 /*form label colors on focus*/
