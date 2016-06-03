@@ -75,6 +75,11 @@ class HomeController extends BaseController {
     	return View::make('weatherMap');
 	}
 
+	public function showBlog()
+	{
+		return View::make('blog');
+	}
+
 	// for adding blog index/main to dropdown
 	public function showIndex()
 	{
