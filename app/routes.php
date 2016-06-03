@@ -40,8 +40,6 @@ Route::get('/posts', 'HomeController@showIndex');
 Route::get('orm-test', function ()
 {
     // test code here
-    $posts = Post::all();
-    return $posts;
 });
 
 
