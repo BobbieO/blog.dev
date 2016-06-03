@@ -27,7 +27,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3 class="center-align">Page Instructions</h2>
+                <h3 class="center-align">Page Instructions</h3>
                     <ol>
                         <li>Enter the <a class="linkColor" href="https://en.wikipedia.org/wiki/Konami_Code" target="_blank">Konami Code</a> to start.</li>
                         <li>If successful, a tone sounds and the scene changes.</li>
@@ -43,6 +43,8 @@
                         <a href="http://bobbieo.github.io/wizard.html" target="_blank"><img src="/img/screenShotWizard.png"></a>
                     </div>
                 </div>
+            </div>
+            <div class="container row">
                 <div class="center-align">
                     <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/wizard.html" target="_blank">View code on GitHub</a>
                 </div>

@@ -29,7 +29,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3 class="center-align">Game Instructions</h2>
+                <h3 class="center-align">Game Instructions</h3>
                     <ol>
                         <li>Click "Start" to begin.</li>
                         <li>A petal will flash.</li>
@@ -47,11 +47,13 @@
                     </div>
                 </div>
             </div>
-            <div class="center-align">
-                <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/simpleSimon.html" target="_blank">View code on GitHub</a>
+
+            <div class="container row">
+                <div class="center-align">
+                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/simpleSimon.html" target="_blank">View code on GitHub</a>
+                </div>
             </div>
         </div>
-
 
     </main>
 @stop

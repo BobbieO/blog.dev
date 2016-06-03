@@ -10,6 +10,7 @@
         <div class="center-align container">
             <div class="right">
                 <a href="{{{action('HomeController@showCalculator')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
+                <a href="{{{action('HomeController@showBlog')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
             <h1>Random Quest Generator</h1>
             <p>
@@ -23,7 +24,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3 class="center-align">Instructions</h2>
+                <h3 class="center-align">Instructions</h3>
                     <ol>
                         <li>Wait for the characters to finish talking.</li>
                         <li>Click the scroll to see your quest.</li>
@@ -37,6 +38,8 @@
                         <a href="#" target="_blank"><img src="/img/screenShotRandQuest.png"></a>
                     </div>
                 </div>
+            </div>
+            <div class="container row">
                 <div class="center-align">
                     <a class="purple-text" href="#" target="_blank">View code on GitHub</a>
                 </div>

@@ -47,6 +47,8 @@
                         <a href="http://bobbieo.github.io/catchabutterfly.html" target="_blank"><img src="/img/screenShotCaB.png"></a>
                     </div>
                 </div>
+            </div>
+            <div class="container row">
                 <div class="center-align">
                     <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/catchabutterfly.html" target="_blank">View code on GitHub</a>
                 </div>

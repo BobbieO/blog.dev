@@ -24,7 +24,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3>Calculator Instructions</h2>
+                <h3>Calculator Instructions</h3>
                     <ol>
                         <li>Click on a number to enter it into the left field.</li>
                         <li>Click on +, -, *, or / to enter an operator.</li>
@@ -40,8 +40,10 @@
                     </div>
                 </div>
             </div>
-            <div class="center-align">
-                <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/calculator.html" target="_blank">View code on GitHub</a>
+            <div class="container row">
+                <div class="center-align">
+                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/calculator.html" target="_blank">View code on GitHub</a>
+                </div>
             </div>
         </div>
     </main>

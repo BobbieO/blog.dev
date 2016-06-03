@@ -29,7 +29,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3 class="center-align">Map Instructions</h2>
+                <h3 class="center-align">Map Instructions</h3>
                     <ol>
                         <li>Click and hold on the map marker.</li>
                         <li>Drag to the desired location.</li>
@@ -42,6 +42,8 @@
                         <a href="http://bobbieo.github.io/weather_map.html" target="_blank"><img src="/img/screenShotWeather.png"></a>
                     </div>
                 </div>
+            </div>
+            <div class="container row">
                 <div class="center-align">
                     <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/weather_map.html" target="_blank">View code on GitHub</a>
                 </div>
