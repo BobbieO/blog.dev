@@ -21,6 +21,9 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <input name="title" id="title" type="text" value="{{{ Input::old('title') }}}">
+
+                        <p>{{ $errors->first('title', '<span class="help-block">:message</span>') }}</p>
+                        
                         <label for="title">Title</label>
                     </div>
                 </div>
@@ -28,6 +31,9 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <textarea class="materialize-textarea" name="content" id="content">{{{ Input::old('content') }}}</textarea>
+
+                        <p>{{ $errors->first('content', '<span class="help-block">:message</span>') }}</p>
+
                         <label for="content">Content</label>
                     </div>
                 </div>
