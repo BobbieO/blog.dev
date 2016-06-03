@@ -96,7 +96,7 @@ class PostsController extends \BaseController {
 		} else {
 			return Redirect::back()->withInput();
 		}
-		
+
 		return View::make('posts.edit')->with(['post' => $post]);
 	}
 

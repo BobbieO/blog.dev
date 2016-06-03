@@ -22,6 +22,12 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="col s12 center-align">
+                <a href="{{{ action('PostsController@edit', $post->id) }}}" class="btn waves-effect waves-light">Edit Post</a>
+            </div>
+        </div>
+
     </div>
     </main>
 @stop

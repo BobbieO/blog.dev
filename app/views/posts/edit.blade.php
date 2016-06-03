@@ -30,7 +30,7 @@
             
                 <div class="row">
                     <div class="input-field col s12">
-                        {{ Form::text('content', null, array('id'=>'content', 'class'=>'materialize-textarea'))}}
+                        {{ Form::textarea('content', null, array('id'=>'content', 'class'=>'materialize-textarea', 'rows'=>'10', 'cols'=>'20', 'wrap'=>'hard'))}}
 
                         <p>{{ $errors->first('content', '<span class="help-block">:message</span>') }}</p>
 
