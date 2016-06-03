@@ -33,7 +33,7 @@
           <li><a class="purple-text" href="{{{action('HomeController@showRandomQuest')}}}">Random Quest Generator</a></li>
           <li class="divider"></li>
 
-          <li><a class="purple-text" href="{{{action('HomeController@showIndex')}}}">Blog</a></li>
+          <li><a class="purple-text" href="{{{action('HomeController@showBlog')}}}">Blog</a></li>
           <li class="divider"></li>
 
           <li><a class="purple-text" href="{{{action('HomeController@showHome')}}}">Future Projects</a></li>
