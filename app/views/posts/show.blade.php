@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.blogMaster')
 
 @section('title')
     BHO Post
@@ -10,7 +10,7 @@
     <div class="container text"> 
         <div class="row">
             <div class="col s12">
-                <h2>Bobbie's Blog</h2>
+                <h2>Blog of Lorem</h2>
             </div>
         </div>
 

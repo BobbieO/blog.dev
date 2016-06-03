@@ -1,0 +1,39 @@
+body {
+    background: url(/img/lorem.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family: "Fontdiner Swanky", cursive;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #efebd9;
+    border: 1px solid #3b3b35;
+    border-radius: 10px;
+    opacity: .9;
+    padding: 10px;
+}
+
+nav .nav-wrapper {
+    height: 100%;
+}
+
+nav .brand-logo, nav ul a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*to size grey band at bottom*/
+footer.page-footer {
+    padding-bottom: 30px;
+}
+
+/*to keep empty grey 'footer' at bottom of screen*/
+main {
+    flex: 1 0 auto;
+}
+
+a {
+    color: #5F5673;
+}

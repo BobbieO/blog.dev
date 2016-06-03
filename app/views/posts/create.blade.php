@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.blogMaster')
 
 @section('title')
     BHO Create a Post
