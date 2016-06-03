@@ -16,7 +16,7 @@
 
         
         <div class="row">
-            <form class="col s8" method="post" enctype="multipart/form-data" class="text-center" action="{{{ action('PostsController@store') }}}">
+            <form class="col s8 box" method="post" enctype="multipart/form-data" class="text-center" action="{{{ action('PostsController@store') }}}">
                 
                 <div class="row">
                     <div class="input-field col s12">

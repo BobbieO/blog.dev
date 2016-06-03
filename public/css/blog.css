@@ -12,7 +12,6 @@ body {
     border: 1px solid #3b3b35;
     border-radius: 10px;
     opacity: .9;
-    padding: 10px;
 }
 
 nav .nav-wrapper {
@@ -34,6 +33,26 @@ main {
     flex: 1 0 auto;
 }
 
-a {
+a, .post-title {
     color: #5F5673;
+}
+
+.btn {
+    background-color: #5F5673;
+}
+
+.btn:hover {
+    background-color: #2F2545;
+}
+
+/*form label colors on focus*/
+.input-field label,
+textarea.materialize-textarea:focus:not([readonly])+label,
+input[type=text]:focus:not([readonly])+label {
+    color: #2F2545;
+}
+
+/*form underline color*/
+#title, #content, #title:focus, #content:focus {
+    border-bottom: 1px solid #2F2545;
 }

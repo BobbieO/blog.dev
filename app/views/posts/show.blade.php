@@ -15,8 +15,8 @@
         </div>
 
         <div class="row">
-            <div class="col s8 offset-s2">
-                <h3 class="center-align purple-text">{{{$post->title}}}</h3>
+            <div class="col s8 offset-s2 box">
+                <h3 class="center-align post-title">{{{$post->title}}}</h3>
                 <p class="left-align">{{{$post->content}}}</p>
                 <p class="right-align">Written on: {{{$post->created_at}}}</p>
             </div>

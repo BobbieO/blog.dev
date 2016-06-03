@@ -15,8 +15,8 @@
         </div>
 
         @foreach($posts as $post)
-        <div class="row box">
-            <div class="col s8 offset-s2">
+        <div class="row">
+            <div class="col s8 offset-s2 box">
                 <h4 class="center-align"><a href="{{{ action('PostsController@show', $post->id) }}}">{{{$post->title}}}</a></h4>
                 <p class="left-align">{{{$post->content}}}</p>
                 <p class="right-align">Written on: {{{$post->created_at}}}</p>
