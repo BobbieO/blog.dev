@@ -1,7 +1,7 @@
 @extends('layouts.blogMaster')
 
 @section('title')
-    BHO Create a Post
+    BHO Edit a Post
 @stop
 
 @section('content')
@@ -10,13 +10,13 @@
     <div class="container"> 
         <div class="row">
             <div class="col sm8">
-                <h2>Create a New Post</h2>
+                <h2>Edit a Post</h2>
             </div>
         </div>
 
         
         <div class="row">
-            {{ Form::open(array('action'=>'PostsController@store', 'class' => 'col s8 box', 'enctype' => 'multipart/form-data')) }}
+            {{ Form::model($post, array('action'=>array('PostsController@update', $post->id), 'method'=>'PUT', 'class' => 'col s8 box', 'enctype' => 'multipart/form-data')) }}
                 
                 <div class="row">
                     <div class="input-field col s12">

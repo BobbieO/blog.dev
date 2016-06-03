@@ -74,7 +74,8 @@ class PostsController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		return 'edit a specific post based on ID';
+		$post = Post::find($id);
+		return View::make('posts.edit')->with(['post' => $post]);
 	}
 
 
@@ -86,7 +87,17 @@ class PostsController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		return 'sends specific update to database';
+		$post = Post::find($id);
+		$post->title = Input::get('title');
+		$post->content = Input::get('content');
+
+		if($post->save()) {
+			return Redirect::action('PostsController@show', $post->id);
+		} else {
+			return Redirect::back()->withInput();
+		}
+		
+		return View::make('posts.edit')->with(['post' => $post]);
 	}
 
 
