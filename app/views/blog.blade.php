@@ -32,7 +32,7 @@
                 <div class="col s6 instrImg">
                     <h3 class="center-align">Click to View</h3>
                     <div class="center-align">
-                        <a href="{{{action('HomeController@showIndex')}}}" target="_blank"><img src="/img/screenShotBlog.png"></a>
+                        <a href="{{{action('PostsController@index')}}}" target="_blank"><img src="/img/screenShotBlog.png"></a>
                     </div>
                 </div>
             </div>

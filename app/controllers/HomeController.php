@@ -81,11 +81,11 @@ class HomeController extends BaseController {
 	}
 
 	// for adding blog index/main to dropdown
-	public function showIndex()
-	{
-		$posts = Post::all();
-		return View::make('posts.index')->with('posts', $posts);
-	}
+	// public function showIndex()
+	// {
+	// 	$posts = Post::all();
+	// 	return View::make('posts.index')->with('posts', $posts);
+	// }
 }
 
 

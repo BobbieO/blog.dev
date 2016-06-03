@@ -35,7 +35,7 @@ Route::get('/blog', 'HomeController@showBlog');
 
 Route::resource('posts', 'PostsController');
 
-Route::get('/posts', 'HomeController@showIndex');
+// Route::get('/posts', 'HomeController@showIndex');
 
 Route::get('orm-test', function ()
 {

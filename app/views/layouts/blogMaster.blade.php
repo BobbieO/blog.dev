@@ -25,7 +25,7 @@
             <div class="nav-wrapper">
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
                 <ul class="text right"> 
-                    <li><a href="{{{action('HomeController@showIndex')}}}">Show All Posts</a></li>
+                    <li><a href="{{{action('PostsController@index')}}}">Show All Posts</a></li>
                     <li><a href="#">Link</a></li>
                 </ul>
             </div>
@@ -37,7 +37,7 @@
 
 
 
-    <footer class="page-footer grey darken-3">
+    <footer class="page-footer">
         <div class="link container"></div>
     </footer>
 

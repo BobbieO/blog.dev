@@ -29,8 +29,13 @@ nav .brand-logo, nav ul a {
 /*to size grey band at bottom*/
 footer.page-footer {
     padding-bottom: 30px;
+    background-color: #5F5673;
 }
 
+.pagination li.active {
+    background-color: #5F5673;
+    color: #efebd9;
+}
 /*to keep empty grey 'footer' at bottom of screen*/
 main {
     flex: 1 0 auto;
