@@ -40,7 +40,7 @@
 
                 <div class="row">
                     <div class="col s12">
-                        <button type="submit" class="btn waves-effect waves-light">Submit Post</button>
+                        <button type="submit" class="btn waves-effect waves-light">Create New Post</button>
                     </div>
                 </div>
 

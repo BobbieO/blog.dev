@@ -26,7 +26,8 @@
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
                 <ul class="text right"> 
                     <li><a href="{{{action('PostsController@index')}}}">Show All Posts</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="{{{action('PostsController@create')}}}">Create a Post</a></li>
+                    <li><a href="#">Future Search Box</a></li>
                 </ul>
             </div>
           </nav>
