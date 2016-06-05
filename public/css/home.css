@@ -9,9 +9,18 @@ body {
     flex-direction: column;
 }
 
-div.home-image {
+div.home-image{
     background: url(/img/purpleLaptop.jpg) no-repeat center;
     background-size: cover;
+    margin: 0;
+    height: 300px;
+}
+
+/*name on home page*/
+.home-splash {
+    color: #f8f8f8;
+    padding-left: 100px;
+
 }
 
 /*target all but home page*/
@@ -43,6 +52,7 @@ nav .nav-wrapper {
 nav .brand-logo, nav ul a {
     padding-left: 30px;
     padding-right: 30px;
+    color: #f8f8f8;
 }
 
 /*to size grey band at bottom*/
