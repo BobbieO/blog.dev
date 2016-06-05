@@ -11,7 +11,7 @@
                 <a href="{{{action('HomeController@showButterfly')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
             
-            <h1>Wizard Vs Dragon</h1>
+            <h1 class="down">Wizard Vs Dragon</h1>
             <p>
                 An interactive web page using JavaScript and jQuery for function, and CSS3 and Bootstrap to assist in styling.
             </p>

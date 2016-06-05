@@ -11,7 +11,7 @@
                 <a href="{{{action('HomeController@showWizard')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
                 <a href="{{{action('HomeController@showSimpleSimon')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
-            <h1>Catch a Butterfly</h1>
+            <h1 class="down">Catch a Butterfly</h1>
             <p>
                 A non-traditional whack-a-mole game using Bootstrap and CSS for styling, and JavaScript and jQuery for function.
             </p>

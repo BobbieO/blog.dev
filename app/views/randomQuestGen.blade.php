@@ -12,7 +12,7 @@
                 <a href="{{{action('HomeController@showCalculator')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
                 <a href="{{{action('HomeController@showBlog')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
-            <h1>Random Quest Generator</h1>
+            <h1 class="down">Random Quest Generator</h1>
             <p>
                 This is an interactive web page using PHP, JavaScript, and jQuery for function, and CSS for styling.
             </p>

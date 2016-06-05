@@ -12,7 +12,7 @@
                 <a href="{{{action('HomeController@showButterfly')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
                 <a href="{{{action('HomeController@showWeatherMap')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
-            <h1>Simple Simon</h1>
+            <h1 class="down">Simple Simon</h1>
             <p>
                 A basic simple simon game using JavaScript and jQuery for function, and Bootstrap CSS for styling.
             </p>

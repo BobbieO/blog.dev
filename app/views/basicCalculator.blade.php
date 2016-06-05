@@ -12,7 +12,7 @@
                 <a href="{{{action('HomeController@showWeatherMap')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
                 <a href="{{{action('HomeController@showRandomQuest')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
-            <h1>Basic Calculator</h1>
+            <h1 class="down">Basic Calculator</h1>
             <p>
                 This calculator uses JavaScript and jQuery to complete basic addition, subtraction, multiplication, and division with whole number and decimals.
             </p>

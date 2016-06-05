@@ -5,7 +5,9 @@
 @stop
 
 @section('splash')
-    <h1 class="center">Bobbie O'Connor</h1>
+    <div class="home-image">
+        <h1 class="center">Bobbie O'Connor</h1>
+    </div>
 @stop
 
 @section('content')

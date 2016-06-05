@@ -11,7 +11,7 @@
             <div class="right">
                 <a href="{{{action('HomeController@showRandomQuest')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
             </div>
-            <h1>Blog of Lorem</h1>
+            <h1 class="down">Blog of Lorem</h1>
             <p>
                 This is a fully functional example blog using PHP and Laravel for function, and Materialize and CSS for styling.
             </p>
