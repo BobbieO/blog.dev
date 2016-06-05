@@ -65,5 +65,26 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col s4 col offset-s4">
+            <div class="card large">
+                <div class="card-image">
+                    <img src="/img/screenShotParks.png">
+                    <span class="card-title">National Parks</span>
+                </div>
+                <div class="card-content">
+                    <p>
+                        A full-stack database application featuring PHP for function, along with Google Materialize and CSS for styling. Users can navigate among the listed parks, and add their own parks.  
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a class="purple-text" href="#" target="_blank">Need to Link</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/NationalParks" target="_blank">View code on GitHub</a>
+                </div>
+            </div>
+        </div>      
+    </div>
 </main>
 @stop
+
+
