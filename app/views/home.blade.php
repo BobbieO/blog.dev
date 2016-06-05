@@ -76,12 +76,6 @@
                 </form>
             </div>
         </div>
-        
-
-
-
-
-
     <a href="#top">Return to top</a>
     <div>
     </main>
