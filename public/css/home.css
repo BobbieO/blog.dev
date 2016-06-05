@@ -55,11 +55,6 @@ nav .brand-logo, nav ul a {
     color: #f8f8f8;
 }
 
-/*to size grey band at bottom*/
-footer.page-footer {
-    padding-bottom: 30px;
-}
-
 img {
     border: 1px solid #191919;
     border-radius: 10px;
@@ -94,4 +89,8 @@ input[type=text]:focus:not([readonly])+label {
     border-bottom: 1px solid #9c27b0;
 }
 
-
+footer {
+    font-size: .9em;
+    color: #f8f8f8;
+    padding-left: 10px;
+}
