@@ -7,8 +7,13 @@
 @section('content')
    
 <main>
+    <div>
 
 
+
+
+
+    </div>
 </main>
 
 @stop

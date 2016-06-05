@@ -41,7 +41,7 @@
                     </p>
                 </div>
                 <div class="card-action">
-                    <a class="purple-text" href="#" target="_blank">Need to link to View</a>
+                    <a class="purple-text" href="#" target="_blank">Need to link</a>
                     <a class="purple-text" href="#" target="_blank">Need to Link GitHub</a>
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <div class="card large">
                 <div class="card-image">
                     <img src="/img/screenShotParks.png">
-                    <span class="card-title black-text">National Parks</span>
+                    <span class="card-title"></span>
                 </div>
                 <div class="card-content">
                     <p>
