@@ -36,7 +36,7 @@
                 <div class="col s6 instrImg">
                     <h3 class="center-align">Click to View</h3>
                     <div class="center-align">
-                        <a href="http://bobbieo.github.io/calculator.html" target="_blank"><img src="/img/screenShotCalc.png"></a>
+                        <a href="http://bobbieo.github.io/calculator.html" target="_blank"><img class="image" src="/img/screenShotCalc.png"></a>
                     </div>
                 </div>
             </div>

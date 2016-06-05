@@ -44,7 +44,7 @@
                 <div class="col s6 instrImg">
                     <h3 class="center-align">Click to Play</h3>
                     <div class="center-align">
-                        <a href="http://bobbieo.github.io/catchabutterfly.html" target="_blank"><img src="/img/screenShotCaB.png"></a>
+                        <a href="http://bobbieo.github.io/catchabutterfly.html" target="_blank"><img class="image" src="/img/screenShotCaB.png"></a>
                     </div>
                 </div>
             </div>

@@ -39,7 +39,7 @@
                 <div class="col s6 instrImg">
                     <h3 class="center-align">Click to View</h3>
                     <div class="center-align">
-                        <a href="http://bobbieo.github.io/weather_map.html" target="_blank"><img src="/img/screenShotWeather.png"></a>
+                        <a href="http://bobbieo.github.io/weather_map.html" target="_blank"><img class="image" src="/img/screenShotWeather.png"></a>
                     </div>
                 </div>
             </div>

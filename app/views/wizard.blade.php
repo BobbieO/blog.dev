@@ -40,7 +40,7 @@
                 <div class="col s6 instrImg">
                     <h3 class="center-align">Click to View</h3>
                     <div class="center">
-                        <a href="http://bobbieo.github.io/wizard.html" target="_blank"><img src="/img/screenShotWizard.png"></a>
+                        <a href="http://bobbieo.github.io/wizard.html" target="_blank"><img class="image" src="/img/screenShotWizard.png"></a>
                     </div>
                 </div>
             </div>

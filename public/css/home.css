@@ -9,6 +9,15 @@ body {
     flex-direction: column;
 }
 
+.container {
+    width: 60%;
+}
+
+hr {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 div.home-image{
     background: url(/img/purpleLaptop.jpg) no-repeat center;
     background-size: cover;
@@ -29,7 +38,7 @@ h1.down {
 }
 
 .bigger {
-    font-size: 1.1em;
+    font-size: 1.9em;
 }
 
 /*to keep empty grey 'footer' at bottom of screen*/
@@ -55,7 +64,7 @@ nav .brand-logo, nav ul a {
     color: #f8f8f8;
 }
 
-img {
+.image {
     border: 1px solid #191919;
     border-radius: 10px;
     box-shadow: 4px 4px 3px #191919;
@@ -80,12 +89,14 @@ i.nav-arrow {
 
 /*form label colors on focus*/
 textarea.materialize-textarea:focus:not([readonly])+label,
-input[type=text]:focus:not([readonly])+label {
+input[type=text]:focus:not([readonly])+label, 
+input[type=email]:focus:not([readonly])+label {
     color: #9c27b0;
 }
 
 /*form underline color*/
-#title, #content, #title:focus, #content:focus {
+#first_name, #last_name, #company, #email, #message,
+#first_name:focus, #last_name:focus, #company:focus, #email:focus, #message:focus {
     border-bottom: 1px solid #9c27b0;
 }
 
@@ -94,3 +105,5 @@ footer {
     color: #f8f8f8;
     padding-left: 10px;
 }
+
+

@@ -43,7 +43,7 @@
                 <div class="col s6 instrImg">
                     <h3 class="center-align">Click to Play</h3>
                     <div class="center-align">
-                        <a href="http://bobbieo.github.io/simpleSimon.html" target="_blank"><img src="/img/screenShotSimon.png"></a>
+                        <a href="http://bobbieo.github.io/simpleSimon.html" target="_blank"><img class="image" src="/img/screenShotSimon.png"></a>
                     </div>
                 </div>
             </div>
