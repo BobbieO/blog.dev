@@ -9,7 +9,13 @@ body {
     flex-direction: column;
 }
 
-h1 {
+div.home-image {
+    background: url(/img/purpleLaptop.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/*target all but home page*/
+h1.down {
     margin-top: 60px;
 }
 
