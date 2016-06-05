@@ -70,7 +70,7 @@
             <div class="card large">
                 <div class="card-image">
                     <img src="/img/screenShotParks.png">
-                    <span class="card-title">National Parks</span>
+                    <span class="card-title black-text">National Parks</span>
                 </div>
                 <div class="card-content">
                     <p>
