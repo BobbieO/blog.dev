@@ -9,7 +9,7 @@
         <div class="center-align container">
             <div class="right">
                 <a href="{{{action('HomeController@showWizard')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
-                <a href="{{{action('HomeController@showSimpleSimon')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
+                <a href="{{{action('HomeController@showBlog')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
             <h1 class="down">Catch a Butterfly</h1>
             <p>

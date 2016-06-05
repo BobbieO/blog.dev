@@ -6,60 +6,64 @@
 
 @section('content')
 
+<main>
+    <div class="row center-align">
+        <h3>More Projects</h3>
+    </div>
     <div class="row">
-        <div class="col s3">
-            <div class="card small">
+        <div class="col s4">
+            <div class="card large">
                 <div class="card-image">
-                    <img src="images/sample-1.jpg">
-                    <span class="card-title">Card Title</span>
+                    <img src="/img/screenShotSimon.png">
+                    <span class="card-title">Simple Simon</span>
                 </div>
                 <div class="card-content">
                     <p>
-                        I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                        A basic simple simon game using JavaScript and jQuery for function, along with Twitter Bootstrap and CSS for styling. This game is compatible with all screen sizes.  
                     </p>
                 </div>
                 <div class="card-action">
-                    <a href="#">This is a link</a>
-                    <a href="#">Another link</a>
+                    <a class="purple-text" href="http://bobbieo.github.io/simpleSimon.html" target="_blank">Play the Game</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/simpleSimon.html" target="_blank">View code on GitHub</a>
                 </div>
             </div>
         </div>
 
-        <div class="col s3">
-            <div class="card small">
+        <div class="col s4">
+            <div class="card large">
                 <div class="card-image">
-                    <img src="images/sample-1.jpg">
-                    <span class="card-title">Card Title</span>
+                    <img src="/img/screenShotRandQuest.png">
+                    <span class="card-title">Random Quest Generator</span>
                 </div>
                 <div class="card-content">
                     <p>
-                        I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                        This is an interactive web page using PHP, JavaScript, and jQuery for function, and CSS for styling. This page is best viewed on a medium sized screen.
                     </p>
                 </div>
                 <div class="card-action">
-                    <a href="#">This is a link</a>
-                    <a href="#">Another link</a>
+                    <a class="purple-text" href="#" target="_blank">Need to link to View</a>
+                    <a class="purple-text" href="#" target="_blank">Need to Link GitHub</a>
                 </div>
             </div>
         </div>
 
-        <div class="col s3">
-            <div class="card small">
+        <div class="col s4">
+            <div class="card large">
                 <div class="card-image">
-                    <img src="images/sample-1.jpg">
-                    <span class="card-title">Card Title</span>
+                    <img src="/img/screenShotWeather.png">
+                    <span class="card-title">Weather Map</span>
                 </div>
                 <div class="card-content">
                     <p>
-                        I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                        This is an interactive weather map using JavaScript and jQuery for function, along with Twitter Bootstrap and CSS for styling. The map integrates Google Maps API and Open Weather API together to retrieve the weather from any given location in the world. This page is compatible with all screen sizes.
                     </p>
                 </div>
                 <div class="card-action">
-                    <a href="#">This is a link</a>
-                    <a href="#">Another link</a>
+                    <a class="purple-text" href="http://bobbieo.github.io/weather_map.html" target="_blank">View Page</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/weather_map.html" target="_blank">View code on GitHub</a>
                 </div>
             </div>
         </div>
     </div>
-
+</main>
 @stop

@@ -9,7 +9,8 @@
     <main>
         <div class="center-align container">
             <div class="right">
-                <a href="{{{action('HomeController@showRandomQuest')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
+                <a href="{{{action('HomeController@showButterfly')}}}"><i class="nav-arrow medium material-icons">navigate_before</i></a>
+                <a href="{{{action('HomeController@showMore')}}}"><i class="nav-arrow medium material-icons">navigate_next</i></a>
             </div>
             <h1 class="down">Blog of Lorem</h1>
             <p>

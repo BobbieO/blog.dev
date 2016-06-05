@@ -25,20 +25,14 @@
         <ul id="dropdownJava" class="dropdown-content">
           <li><a class="purple-text" href="{{{action('HomeController@showWizard')}}}">Wizard Vs Dragon</a></li>
           <li><a class="purple-text" href="{{{action('HomeController@showButterfly')}}}">Catch A Butterfly</a></li>
-          <li><a class="purple-text" href="{{{action('HomeController@showSimpleSimon')}}}">Simple Simon</a></li>
-          <li><a class="purple-text" href="{{{action('HomeController@showWeatherMap')}}}">Weather Map</a></li>
-          <li><a class="purple-text" href="{{{action('HomeController@showCalculator')}}}">Basic Calculator</a></li>
-          <li class="divider"></li>
-
-          <li><a class="purple-text" href="{{{action('HomeController@showRandomQuest')}}}">Random Quest Generator</a></li>
-          <li class="divider"></li>
-
           <li><a class="purple-text" href="{{{action('HomeController@showBlog')}}}">Blog</a></li>
+          <li><a class="purple-text" href="#">Put Adlister Here</a></li>
+          
           <li class="divider"></li>
 
-          <li><a class="purple-text" href="{{{action('HomeController@showHome')}}}">Future Projects</a></li>
+          <li><a class="purple-text" href="{{{action('HomeController@showMore')}}}">More Projects</a></li>
         </ul>
-
+        
         <nav>
             <div class="nav-wrapper grey darken-3">
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
