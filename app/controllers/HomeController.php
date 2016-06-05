@@ -80,6 +80,11 @@ class HomeController extends BaseController {
 		return View::make('blog');
 	}
 
+	public function showMore()
+	{
+		return View::make('moreSites');
+	}
+
 	// for adding blog index/main to dropdown
 	// public function showIndex()
 	// {

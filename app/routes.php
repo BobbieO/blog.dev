@@ -33,6 +33,8 @@ Route::get('/weatherMap', 'HomeController@showWeatherMap');
 
 Route::get('/blog', 'HomeController@showBlog');
 
+Route::get('/moreSites', 'HomeController@showMore');
+
 Route::resource('posts', 'PostsController');
 
 // Route::get('/posts', 'HomeController@showIndex');
