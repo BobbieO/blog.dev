@@ -7,6 +7,7 @@
 @section('content')
 
 <main>
+<div class="container">
     <div class="row center-align">
         <h3>More Projects</h3>
     </div>
@@ -55,7 +56,7 @@
                 </div>
                 <div class="card-content">
                     <p>
-                        This is an interactive weather map using JavaScript and jQuery for function, along with Twitter Bootstrap and CSS for styling. The map integrates Google Maps API and Open Weather API together to retrieve the weather from any given location in the world. This page is compatible with all screen sizes.
+                        An interactive weather map using JavaScript and jQuery, with Twitter Bootstrap and CSS for styling. Google Maps API and Open Weather API together retrieve the weather from any location in the world. Compatible with all screen sizes.
                     </p>
                 </div>
                 <div class="card-action">
@@ -84,6 +85,7 @@
             </div>
         </div>      
     </div>
+</div>
 </main>
 @stop
 
