@@ -37,6 +37,7 @@ class PostsController extends \BaseController {
 
 		if($validator->fails()) {
 			// if fails, returns back with errors and input
+			Log::info('Post submit failed.');
 			return Redirect::back()->withInput()->withErrors($validator);
 		} else {
 
@@ -45,6 +46,7 @@ class PostsController extends \BaseController {
 			$post->content = Input::get('content');
 
 			if($post->save()) {
+				Session::flash('successMessage', 'Your post was added');
 				return Redirect::action('PostsController@show', $post->id);
 			} else {
 				return Redirect::back()->withInput();

@@ -32,7 +32,7 @@ footer.page-footer {
     background-color: #5F5673;
 }
 
-.pagination li.active {
+.pagination li.active, .card {
     background-color: #5F5673;
     color: #efebd9;
 }
@@ -71,3 +71,6 @@ input[type=text]:focus:not([readonly])+label {
     box-shadow: 0 1px 0 0 #2F2545;
 }
 
+.card.small {
+    height: 215px;
+}

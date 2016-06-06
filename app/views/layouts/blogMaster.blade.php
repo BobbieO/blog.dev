@@ -33,10 +33,23 @@
           </nav>
     </header>
 
-
     @yield('content')
 
+    <!-- for success messages -->
+    @if (Session::has('successMessage'))
 
+        <div class="row">
+            <div class="col s12">
+                <div class="card small">
+                    <div class="card-content">
+                        <span class="card-title">Success!</span>
+                        <p class="data-success">{{{ Session::get('successMessage') }}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    @endif
 
     <footer class="page-footer">
         <div class="link container"></div>
