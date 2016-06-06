@@ -17,6 +17,7 @@
         <div class="row">
             <div class="col s8 offset-s2 box">
                 <h3 class="center-align post-title">{{{$post->title}}}</h3>
+                <p class="left-align">Added by: {{{$post->user->username}}}</p>
                 <p class="left-align">{{{$post->content}}}</p>
                 <p class="right-align">Posted on: {{{$post->created_at->setTimezone('America/Chicago')->format('D, F d Y @ h:i:s A')}}}</p>
             </div>

@@ -9,8 +9,16 @@ class PostsController extends \BaseController {
 	 */
 	public function index()
 	{
+		//pagination eliminates the need for eager loading bc built-in constraints on data fetching
 		$posts = Post::paginate(3);
 		return View::make('posts.index')->with('posts', $posts);
+
+		//ex of eager loading:
+		// $posts = Post::all(); --->>changes to:
+		// $posts = Post::with('user')->get();
+		// return View::make('posts.index')->with('posts', $posts);
+
+
 	}
 
 
