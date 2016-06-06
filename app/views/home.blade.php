@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <div class="row valign-wrapper">
+        <div class="row center-align valign-wrapper">
             <div class="col s3">
                 <img src="/img/html5.png">
             </div>
@@ -66,7 +66,7 @@
             </div>
         </div>
 
-        <div class="row valign-wrapper">
+        <div class="row center-align valign-wrapper">
             <div class="col s3">
                 <span class="valign"><img src="/img/mysql.png"></span>
             </div>
@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <div class="row valign-wrapper">
+        <div class="row center-align valign-wrapper">
             <div class="col s3">
                 <img src="/img/gitHub.png">
             </div>
@@ -96,8 +96,8 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="center-align">
+        <div class="row center-align">
+            <div>
                 <img src="/img/pixelmator.jpeg">
             </div>
         </div>
@@ -112,25 +112,27 @@
 
         <div class="row">
             <div class="col s12">
-                <h3>Contact Me</h3>
+                <h3 class="center-align">Contact Me</h3>
                 <a id="contact"></a>
-                <div class="row social">
-                    <div class="col s6">
-                        <a href="https://twitter.com/bobbieo134" class="twitter-follow-button" data-show-count="false">Follow @bobbieo134</a>
+                <div class="row social valign-wrapper">
+
+                    <div class="col s6 valign center-align">
+                        <a href="mailto:bobbie134@me.com"><i class="small material-icons">email</i>Email Me!</a>
                     </div>
 
-                    <div class="col s6">
-                        <a href="https://www.linkedin.com/in/bobbieo134"><img src="/img/linkedin-32-21.png"></a>
+                    <div class="col s6 valign center-align">
+                        <a href="https://github.com/BobbieO"><img src="/img/smallGitHub.png">View My GitHub</a>
                     </div>
                 </div>
 
-                <div class="row social">
-                    <div class="col s6">
-                        <p>Email will go here</p>
+                <div class="row social valign-wrapper">
+                    <div class="col s6 valign center-align">
+                        <a href="https://twitter.com/bobbieo134" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @bobbieo134</a>
                     </div>
 
-                    <div class="col s6">
-                        <p>github</p>
+                    <div class="col s6 valign center-align">
+                        <a href="https://www.linkedin.com/in/bobbieo134"><img src="/img/linkedinLogo.png"></span></a>
+                        <p>
                     </div>
                 </div>
             </div>

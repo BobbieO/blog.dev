@@ -111,7 +111,13 @@ main {
     flex: 1 0 auto;
 }
 
+div.social a {
+    color: #191919;
+}
 
+.social {
+    margin-top: 30px;
+}
 
 
 
