@@ -19,7 +19,7 @@
             <div class="col s8 offset-s2 box">
                 <h4 class="center-align"><a href="{{{ action('PostsController@show', $post->id) }}}">{{{$post->title}}}</a></h4>
                 <p class="left-align">{{{$post->content}}}</p>
-                <p class="right-align">Written on: {{{$post->created_at}}}</p>
+                <p class="right-align">Posted on: {{{$post->created_at->setTimezone('America/Chicago')->format('D, F d Y @ h:i:s A')}}}</p>
             </div>
         </div>
         @endforeach
