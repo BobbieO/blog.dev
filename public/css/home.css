@@ -37,6 +37,10 @@ h1.down {
     margin-top: 60px;
 }
 
+.bottom-margin {
+    margin-bottom: 50px;
+}
+
 .bigger {
     font-size: 1.6em;
 }

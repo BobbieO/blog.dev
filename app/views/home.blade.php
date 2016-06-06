@@ -47,7 +47,7 @@
 
         <div class="row">
             <div class="col s12 center-align">
-                <button type="submit" class="btn waves-effect waves-light">Download Resume</button>
+                <button type="submit" class="bottom-margin btn waves-effect waves-light">Download Resume</button>
             </div>
         </div>
 
