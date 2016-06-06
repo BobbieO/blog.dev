@@ -38,7 +38,7 @@
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
                 <ul class="text right"> 
                     <li><a href="/home#contact">Contact Me</a></li>
-                    <li><a href="{{{action('HomeController@showResume')}}}">Resume</a></li>
+                    <li><a href="/home#resume">Resume</a></li>
                     <!-- Dropdown Trigger -->
                     <li><a class="dropdown-button" href="#!" data-activates="dropdownJava">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
                 </ul>
