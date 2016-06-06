@@ -17,9 +17,10 @@
         <div class="center-align">
             <p class="bigger">Hello and welcome to my site!</p>
             <p class="bigger">
-                I'm a front-end web developer based in San Antonio, TX. I am available for full-time work. I enjoy designing attractive, intuitive, user-friendly websites. Currently I am honing my CSS skills, teaching myself ReactJS, and speculatively eyeing Ruby.
+                I'm a front-end web developer based in San Antonio, TX. I am available for full-time work. I enjoy designing attractive, intuitive, user-friendly websites. Currently I am honing my CSS skills, reading about web design, and speculatively eyeing ReactJS.
             </p>
-            <p class="bigger">When I'm not coding, you can find me playing MMOs, reading a book, or watching TV. As long as there are aliens, monsters, and/or explosions involved, I'm in!
+            <p class="bigger">
+                When I'm not coding, you can find me playing MMOs, reading a book, or watching TV. As long as there are aliens, monsters, and/or explosions involved, I'm in!
             </p>
         </div>
 
