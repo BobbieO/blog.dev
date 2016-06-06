@@ -9,8 +9,11 @@
     <main>
     <div class="container text"> 
         <div class="row">
-            <div class="col s12">
+            <div class="col s6 left-align">
                 <h2>Blog of Lorem</h2>
+            </div>
+            <div class="col s6 right-align">
+                <h5>future search box here</h5>
             </div>
         </div>
 
