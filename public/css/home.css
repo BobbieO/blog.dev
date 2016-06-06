@@ -76,6 +76,7 @@ i.nav-arrow {
 
 .btn {
     background-color: #9c27b0;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -105,4 +106,8 @@ footer {
 main {
     flex: 1 0 auto;
 }
+
+
+
+
 
