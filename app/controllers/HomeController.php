@@ -106,7 +106,7 @@ class HomeController extends BaseController {
 		if (Auth::attempt(array('username' => $username, 'password' => $password))) {
 
 			Session::flash('successMessage', 'You logged in!');
-    		return Redirect::intended('/create');
+    		return Redirect::intended('/posts');
     		
 		} else {
     		return Redirect::action('HomeController@loginForm');
