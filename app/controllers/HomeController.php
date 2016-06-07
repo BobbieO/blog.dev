@@ -96,14 +96,20 @@ class HomeController extends BaseController {
 	public function doLogin() 
 	{
 		//grab all input
+		$username = Input::get('username');
+		$password = Input::get('password');
 
 		//validate input fields
 
+
 		//attempt login
-		if (Auth::attempt(array('email' => $email, 'password' => $password))) {
-    		return Redirect::intended('/');
+		if (Auth::attempt(array('username' => $username, 'password' => $password))) {
+
+			Session::flash('successMessage', 'You logged in!');
+    		return Redirect::intended('/create');
+    		
 		} else {
-    		return Redirect::action('PostsController@login');
+    		return Redirect::action('HomeController@loginForm');
 		}
 	}
 
@@ -117,12 +123,7 @@ class HomeController extends BaseController {
 
 
 
-	// for adding blog index/main to dropdown
-	// public function showIndex()
-	// {
-	// 	$posts = Post::all();
-	// 	return View::make('posts.index')->with('posts', $posts);
-	// }
+	
 }
 
 

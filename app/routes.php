@@ -37,7 +37,9 @@ Route::get('/moreSites', 'HomeController@showMore');
 
 Route::resource('posts', 'PostsController');
 
-Route::get('login', 'HomeController@loginForm');
+Route::get('/login', 'HomeController@loginForm');
+
+Route::post('/login', 'HomeController@doLogin');
 
 Route::get('orm-test', function ()
 {
