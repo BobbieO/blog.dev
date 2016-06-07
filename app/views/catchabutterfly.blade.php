@@ -50,7 +50,7 @@
             </div>
             <div class="container row">
                 <div class="center-align">
-                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/catchabutterfly.html" target="_blank">View code on GitHub</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/Catch-a-Butterfly" target="_blank">View code on GitHub</a>
                 </div>
             </div>
         </div>
