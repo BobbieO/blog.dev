@@ -24,14 +24,35 @@
         <nav>
             <div class="nav-wrapper">
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
-                <ul class="text right"> 
+                <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="text right hide-on-med-and-down""> 
+                    @if (Auth::check())
+                        <li id="welcome-user">Welcome {{{Auth::user()->username}}}</li>
+                    @endif
+
                     <li><a href="{{{action('PostsController@index')}}}">Show All Posts</a></li>
+
                     @if (Auth::check())
                         <li><a href="{{{action('PostsController@create')}}}">Create a Post</a></li>
                         <li><a href="{{{action('HomeController@doLogout')}}}">Log Out</a></li>
                     @else 
                         <li><a href="{{{action('HomeController@loginForm')}}}">Log In</a></li>
                     @endif
+                </ul>
+                <!-- mobile view -->
+                <ul class="side-nav" id="mobile">
+                    @if (Auth::check())
+                        <li id="welcome-user">Welcome {{{Auth::user()->username}}}</li>
+                    @endif
+
+                    <li><a href="{{{action('PostsController@index')}}}">Show All Posts</a></li>
+
+                    @if (Auth::check())
+                        <li><a href="{{{action('PostsController@create')}}}">Create a Post</a></li>
+                        <li><a href="{{{action('HomeController@doLogout')}}}">Log Out</a></li>
+                    @else 
+                        <li><a href="{{{action('HomeController@loginForm')}}}">Log In</a></li>
+                    @endif     
                 </ul>
             </div>
           </nav>

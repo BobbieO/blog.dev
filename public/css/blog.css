@@ -26,6 +26,14 @@ nav .brand-logo, nav ul a {
     text-shadow: 1px 1px #3b3b35;
 }
 
+.side-nav {
+    background-color: #efebd9;    
+}
+
+.side-nav a {
+    font-size: 1.5rem;
+}
+
 /*to size grey band at bottom*/
 footer.page-footer {
     padding-bottom: 30px;
@@ -83,6 +91,5 @@ input[type=password]:focus:not([readonly])+label {
 }
 
 #welcome-user {
-    color: #5F5673;
-
+    color: #efebd9;
 }
