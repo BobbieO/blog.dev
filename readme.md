@@ -1,25 +1,14 @@
-## Laravel PHP Framework
+## Blog.dev: Portfolio Plus
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+This site contains a number of functions. 
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+First, it serves as a complete portfolio site, able to showcase and highlight specific projects as well as display an archive of other projects. This is completed with a basic site layout using navigation links both in the navbar and on a display page. Laravel helps with routing between pages, enabling the user to change out featured pages with ease. 
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+As part of the portfolio aspect, the home page features a splash section for personal information, a skills and resume section, and a contact section. Each section is linked in the navbar with anchor tags to direct the user to the proper section. Within each section are also links to return to the top of the page.
 
-## Official Documentation
+The second aspect of this site is a blog. The owner of the site can add, create, edit, and delete posts. Ownership is verfified through a log-in process. Users who are not logged in can view all blog posts or view posts individually.
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+Google Materialize and navbar layout changes ensure compatibility with mobile browsing.
 
-### Contributing To Laravel
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
