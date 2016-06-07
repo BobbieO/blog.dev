@@ -25,7 +25,7 @@
                 </div>
                 <div class="card-action">
                     <a class="purple-text" href="http://bobbieo.github.io/simpleSimon.html" target="_blank">Play the Game</a>
-                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/simpleSimon.html" target="_blank">View code on GitHub</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/Simple-Simon" target="_blank">View code on GitHub</a>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                     </p>
                 </div>
                 <div class="card-action">
-                    <a class="purple-text" href="#" target="_blank">Need to link</a>
+                    <a class="purple-text" href="/randomQuestGenerator.php" target="_blank">View Page</a>
                     <a class="purple-text" href="#" target="_blank">Need to Link GitHub</a>
                 </div>
             </div>

@@ -1,0 +1,68 @@
+body#background {
+    background: url(/img/castleBackground.jpg) no-repeat 50% 50% fixed;
+    background-size: cover;
+}
+
+.position {
+    margin-top: 75px;
+}
+
+.dialogue {
+    display: inline-block;
+    width: 50%;
+}
+
+.wizTalk {
+    color: #f7ece6;
+    text-shadow: 2px 2px #171413;
+}
+
+.text {
+    font-size: 2em;
+    font-family: "Kaushan Script", cursive;
+
+}
+
+.small {
+    font-size: 12px;
+    color: #f7ece6;
+    display: inline-block;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+
+button {
+    display: inline-block;
+    margin-right: 350px;
+    margin-bottom: 40px;
+    border-color: #171413;
+    color: #171413;
+    background-color: #f7ece6;
+    border-radius: 5px;
+    font-family: "Kaushan Script", cursive;
+    font-size: 1em;
+}
+
+.objects {
+    display: inline-block;
+    width: 33%;
+}
+
+.container {
+    text-align: center;
+}
+
+.wizard img {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.miniScroll img{
+    margin-left: 200px;
+    margin-bottom: 220px;
+}
+
+.showMe {
+    opacity: 0;
+    color: #171413;
+}
