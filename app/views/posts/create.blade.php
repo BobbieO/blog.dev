@@ -12,9 +12,6 @@
             <div class="col s9 left-align">
                 <h2>Create a New Post</h2>
             </div>
-            <div class="col s3 right-align">
-                <p id="welcome-user" class="bigger">Welcome {{{Auth::user()->username}}}</p>
-            </div>
         </div>
 
         
