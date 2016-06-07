@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    BHO Example Blog
+    BHO Example Blog   
 @stop
 
 @section('content')
@@ -17,7 +17,7 @@
                 This is a fully functional example blog using PHP and Laravel for function, and Materialize and CSS for styling.
             </p>
             <p>
-                This blog features the ability to add, edit, and delete blog posts. Posts can be viewed together or separately on an individual page. 
+                This blog is an application within the larger portfolio project you are viewing now. The blog itself features the ability to create, edit, and delete blog posts for a master user. Guests may view the complete index of posts, or select individual posts to view. 
             </p>
         </div>
 
@@ -27,7 +27,6 @@
                 <h3 class="center-align">Instructions</h2>
                     <ol>
                         <li>Admire the many lorems.</li>
-                        <li>Leave a comment!</li>
                     </ol>
                 </div>
                 <div class="col s6 instrImg">
@@ -39,7 +38,7 @@
             </div>
             <div class="container row">
                 <div class="center-align">
-                    <a class="purple-text" href="#" target="_blank">View code on GitHub</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/blog.dev" target="_blank">View code on GitHub</a>
                 </div>
             </div>
         </div>
