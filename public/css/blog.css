@@ -92,4 +92,5 @@ input[type=password]:focus:not([readonly])+label {
 
 #welcome-user {
     color: #efebd9;
+    padding-right: 30px;
 }
