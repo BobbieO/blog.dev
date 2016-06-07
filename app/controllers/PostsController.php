@@ -28,10 +28,7 @@ class PostsController extends \BaseController {
 		// $posts = Post::all(); --->>changes to:
 		// $posts = Post::with('user')->get();
 		// return View::make('posts.index')->with('posts', $posts);
-
-
 	}
-
 
 	/**
 	 * Show the form for creating a new resource.
@@ -42,7 +39,6 @@ class PostsController extends \BaseController {
 	{
 		return View::make('posts.create');
 	}
-
 
 	/**
 	 * Store a newly created resource in storage.
@@ -74,7 +70,6 @@ class PostsController extends \BaseController {
 		};
 	}
 
-
 	/**
 	 * Display the specified resource.
 	 *
@@ -91,7 +86,6 @@ class PostsController extends \BaseController {
 		}
 	}
 
-
 	/**
 	 * Show the form for editing the specified resource.
 	 *
@@ -103,7 +97,6 @@ class PostsController extends \BaseController {
 		$post = Post::find($id);
 		return View::make('posts.edit')->with(['post' => $post]);
 	}
-
 
 	/**
 	 * Update the specified resource in storage.
@@ -126,7 +119,6 @@ class PostsController extends \BaseController {
 		return View::make('posts.edit')->with(['post' => $post]);
 	}
 
-
 	/**
 	 * Remove the specified resource from storage.
 	 *
@@ -137,6 +129,5 @@ class PostsController extends \BaseController {
 	{
 		return 'deletes a specific post based on ID';
 	}
-
 
 }
