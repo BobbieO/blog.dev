@@ -7,13 +7,6 @@ body {
     flex-direction: column;
 }
 
-.box {
-    background-color: #efebd9;
-    border: 1px solid #3b3b35;
-    border-radius: 10px;
-    opacity: .9;
-}
-
 nav .nav-wrapper {
     height: 100%;
     background-color: #5f5673;
@@ -26,6 +19,11 @@ nav .brand-logo, nav ul a {
     text-shadow: 1px 1px #3b3b35;
 }
 
+#welcome-user {
+    color: #efebd9;
+    padding-right: 30px;
+}
+
 .side-nav {
     background-color: #efebd9;    
 }
@@ -34,20 +32,11 @@ nav .brand-logo, nav ul a {
     font-size: 1.5rem;
 }
 
-/*to size grey band at bottom*/
-footer.page-footer {
-    padding-bottom: 30px;
-    background-color: #5F5673;
-}
-
-.pagination li.active, .card {
-    background-color: #5F5673;
-    color: #efebd9;
-}
-
-/*to keep empty grey 'footer' at bottom of screen*/
-main {
-    flex: 1 0 auto;
+.box {
+    background-color: #efebd9;
+    border: 1px solid #3b3b35;
+    border-radius: 10px;
+    opacity: .9;
 }
 
 a, .post-title {
@@ -90,7 +79,17 @@ input[type=password]:focus:not([readonly])+label {
     background-color: #A77879;
 }
 
-#welcome-user {
+.pagination li.active, .card {
+    background-color: #5F5673;
     color: #efebd9;
-    padding-right: 30px;
+}
+
+/*to keep empty grey 'footer' at bottom of screen*/
+main {
+    flex: 1 0 auto;
+}
+/*to size grey band at bottom*/
+footer.page-footer {
+    padding-bottom: 30px;
+    background-color: #5F5673;
 }
