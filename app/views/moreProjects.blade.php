@@ -9,7 +9,7 @@
 <main>
 <div class="container">
     <div class="row center-align">
-        <h3>More Projects</h3>
+        <h1 class="down">More Projects</h1>
     </div>
     <div class="row">
         <div class="col s4">
