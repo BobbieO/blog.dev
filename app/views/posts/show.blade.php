@@ -29,7 +29,7 @@
                     <a href="{{{ action('PostsController@edit', $post->id) }}}" class="btn waves-effect waves-light">Edit Post</a>
                 </div>
                 <div class="col s6 center-align">
-                    <a id="delete-btn" class="btn waves-effect waves-light">Delete Post</a>
+                    <a id="delete-btn" class="btn waves-effects waves-light">Delete Post</a>
                 </div>
             </div>
 
