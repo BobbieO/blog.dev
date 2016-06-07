@@ -47,7 +47,8 @@
 
         <div class="row">
             <div class="col s12 center-align">
-                <button type="submit" class="bottom-margin btn waves-effect waves-light">Download Resume</button>
+            <!-- hidden until resume is completed -->
+                <!-- <a href="blog.dev/pdfs/resume.pdf" target="_blank" class="btn">View Resume</a> -->
             </div>
         </div>
 
