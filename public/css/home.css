@@ -13,6 +13,20 @@ body {
     width: 60%;
 }
 
+.side-nav {
+    background-color: #e5e5e5;    
+}
+
+.side-nav a {
+    font-size: 1.5rem;
+}
+
+/*name on home page*/
+.home-splash {
+    color: #f8f8f8;
+    padding-left: 100px;
+}
+
 hr {
     margin-top: 140px;
     margin-bottom: 140px;
@@ -25,11 +39,12 @@ div.home-image{
     height: 300px;
 }
 
-/*name on home page*/
-.home-splash {
-    color: #f8f8f8;
-    padding-left: 100px;
+div.social a {
+    color: #191919;
+}
 
+.social {
+    margin-top: 30px;
 }
 
 /*target all but home page*/
@@ -41,20 +56,8 @@ h1.down {
     margin-bottom: 50px;
 }
 
-.bigger {
-    font-size: 1.6em;
-}
-
-.right {
-    text-align: right;
-}
-
 nav .nav-wrapper {
     height: 100%;
-}
-
-.text {
-    color: #191919;
 }
 
 nav .brand-logo, nav ul a {
@@ -63,10 +66,22 @@ nav .brand-logo, nav ul a {
     color: #f8f8f8;
 }
 
+.text {
+    color: #191919;
+}
+
 .image {
     border: 1px solid #191919;
     border-radius: 10px;
     box-shadow: 4px 4px 3px #191919;
+}
+
+.bigger {
+    font-size: 1.6em;
+}
+
+.right {
+    text-align: right;
 }
 
 a {
@@ -100,23 +115,15 @@ input[type=email]:focus:not([readonly])+label {
     border-bottom: 1px solid #9c27b0;
 }
 
-footer {
-    font-size: .9em;
-    color: #f8f8f8;
-    padding-left: 10px;
-}
-
 /*to keep empty grey 'footer' at bottom of screen*/
 main {
     flex: 1 0 auto;
 }
 
-div.social a {
-    color: #191919;
-}
-
-.social {
-    margin-top: 30px;
+footer {
+    font-size: .9em;
+    color: #f8f8f8;
+    padding-left: 10px;
 }
 
 
