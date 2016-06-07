@@ -2,6 +2,17 @@
 
 class PostsController extends \BaseController {
 
+	public function __construct()
+    {
+    	//a filter to require authorization except for index and show pages
+        $this->beforeFilter('auth', array(
+        	'except' => array(
+        		'index',
+        		'show'
+        	)
+        ));
+    }
+
 	/**
 	 * Display a listing of the resource.
 	 *

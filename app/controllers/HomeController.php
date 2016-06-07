@@ -85,6 +85,26 @@ class HomeController extends BaseController {
 		return View::make('moreSites');
 	}
 
+	//GET
+	public function loginForm {
+		//show form with 2 fields for submitting/login
+		//return form view
+	}
+
+	//POST
+	public function doLogin {
+		//grab all input
+
+		//validate input fields
+
+		//attempt login
+		if (Auth::attempt(array('email' => $email, 'password' => $password))) {
+    		return Redirect::intended('/');
+		} else {
+    		// login failed, go back to the login screen
+		}
+	}
+
 	// for adding blog index/main to dropdown
 	// public function showIndex()
 	// {
