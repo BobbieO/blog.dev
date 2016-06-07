@@ -82,7 +82,7 @@ class HomeController extends BaseController {
 
 	public function showMore()
 	{
-		return View::make('moreSites');
+		return View::make('moreProjects');
 	}
 
 	//GET

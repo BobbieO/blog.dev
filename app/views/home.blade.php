@@ -121,7 +121,7 @@
                     </div>
 
                     <div class="col s6 valign center-align">
-                        <a href="https://github.com/BobbieO"><img src="/img/smallGitHub.png">View My GitHub</a>
+                        <a href="https://github.com/BobbieO" target="_blank"><img src="/img/smallGitHub.png">View My GitHub</a>
                     </div>
                 </div>
 
@@ -131,7 +131,7 @@
                     </div>
 
                     <div class="col s6 valign center-align">
-                        <a href="https://www.linkedin.com/in/bobbieo134"><img src="/img/linkedinLogo.png"></span></a>
+                        <a href="https://www.linkedin.com/in/bobbieo134" target="_blank"><img src="/img/linkedinLogo.png"></span></a>
                         <p>
                     </div>
                 </div>

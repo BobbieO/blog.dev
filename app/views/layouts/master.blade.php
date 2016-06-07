@@ -26,7 +26,9 @@
           <li><a class="purple-text" href="{{{action('HomeController@showWizard')}}}">Wizard Vs Dragon</a></li>
           <li><a class="purple-text" href="{{{action('HomeController@showButterfly')}}}">Catch A Butterfly</a></li>
           <li><a class="purple-text" href="{{{action('HomeController@showBlog')}}}">Blog</a></li>
-          <li><a class="purple-text" href="#">Put Adlister Here</a></li>
+
+          <!-- Need to link etc -->
+          <!-- <li><a class="purple-text" href="#">Put Adlister Here</a></li> -->
           
           <li class="divider"></li>
 
