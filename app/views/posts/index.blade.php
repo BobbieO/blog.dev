@@ -12,9 +12,6 @@
             <div class="col s6 left-align">
                 <h2>Blog of Lorem</h2>
             </div>
-            <div class="col s6 right-align">
-                <h5>future search box here</h5>
-            </div>
         </div>
 
         @foreach($posts as $post)
