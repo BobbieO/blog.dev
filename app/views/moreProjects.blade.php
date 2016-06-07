@@ -25,7 +25,7 @@
                 </div>
                 <div class="card-action">
                     <a class="purple-text" href="http://bobbieo.github.io/simpleSimon.html" target="_blank">Play the Game</a>
-                    <a class="purple-text" href="https://github.com/BobbieO/Simple-Simon" target="_blank">View code on GitHub</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/Simple-Simon" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="card-action">
                     <a class="purple-text" href="/randomQuestGenerator.php" target="_blank">View Page</a>
-                    <a class="purple-text" href="#" target="_blank">Need to Link GitHub</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/Codeup-Web-Exercises/blob/master/public/server-name-generator.php" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="card-action">
                     <a class="purple-text" href="http://bobbieo.github.io/weather_map.html" target="_blank">View Page</a>
-                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/weather_map.html" target="_blank">View code on GitHub</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/weather_map.html" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="card-action">
                     <a class="purple-text" href="#" target="_blank">Need to Link</a>
-                    <a class="purple-text" href="https://github.com/BobbieO/NationalParks" target="_blank">View code on GitHub</a>
+                    <a class="purple-text" href="https://github.com/BobbieO/Codeup-Web-Exercises/blob/master/public/national_parks.php" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>      
