@@ -59,7 +59,7 @@ class PostsController extends \BaseController {
 			$post = new Post();
 			$post->title = Input::get('title');
 			$post->content = Input::get('content');
-			// $post->user_id = Auth::id();
+			$post->user_id = Auth::id();
 
 			if($post->save()) {
 				Session::flash('successMessage', 'Your post was added');

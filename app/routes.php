@@ -41,6 +41,8 @@ Route::get('/login', 'HomeController@loginForm');
 
 Route::post('/login', 'HomeController@doLogin');
 
+Route::get('/logout', 'HomeController@doLogout');
+
 Route::get('orm-test', function ()
 {
     // test code here

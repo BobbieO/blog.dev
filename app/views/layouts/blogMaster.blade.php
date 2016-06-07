@@ -26,7 +26,13 @@
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
                 <ul class="text right"> 
                     <li><a href="{{{action('PostsController@index')}}}">Show All Posts</a></li>
-                    <li><a href="{{{action('PostsController@create')}}}">Create a Post</a></li>
+
+                    @if (Auth::check())
+                        <li><a href="{{{action('PostsController@create')}}}">Create a Post</a></li>
+                        <li><a href="{{{action('HomeController@doLogout')}}}">Log Out</a></li>
+                    @else 
+                        <li><a href="{{{action('HomeController@loginForm')}}}">Log In</a></li>
+                    @endif
                 </ul>
             </div>
           </nav>
