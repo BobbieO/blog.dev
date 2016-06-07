@@ -89,7 +89,7 @@ class HomeController extends BaseController {
 	public function loginForm() 
 	{
 		//show form with 2 fields for submitting/login
-		return View::make('posts.login');
+		return View::make('login');
 	}
 
 	//POST
