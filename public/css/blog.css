@@ -60,12 +60,14 @@ a, .post-title {
 /*form label colors on focus*/
 .input-field label,
 textarea.materialize-textarea:focus:not([readonly])+label,
-input[type=text]:focus:not([readonly])+label {
+input[type=text]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label {
     color: #5F5673;
 }
 
 /*form underline color*/
-#title, #content, #title:focus, #content:focus {
+#title, #content, #username, #password,
+#title:focus, #content:focus, #username:focus, #password:focus {
     color: #2F2545;
     border-bottom: 1px solid #2F2545;
     box-shadow: 0 1px 0 0 #2F2545;
