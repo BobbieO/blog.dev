@@ -23,11 +23,25 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col s12 center-align">
-                <a href="{{{ action('PostsController@edit', $post->id) }}}" class="btn waves-effect waves-light">Edit Post</a>
+        @if (Auth::check())
+            <div class="row">
+                <div class="col s6 center-align">
+                    <a href="{{{ action('PostsController@edit', $post->id) }}}" class="btn waves-effect waves-light">Edit Post</a>
+                </div>
+                <div class="col s6 center-align">
+                    <a id="delete-btn" class="btn waves-effect waves-light">Delete Post</a>
+                </div>
             </div>
-        </div>
+
+            {{-- This creates an empty form that points to the destroy method on the PostsController --}}
+            {{-- There is nothing visible to the user here, but we can target this form with Javascript --}}
+            {{ Form::open([
+                'action' => ['PostsController@destroy', $post->id],
+                'id'     => 'delete-post-form',
+                'method' => 'DELETE',
+                ]) }}
+            {{ Form::close() }}
+        @endif
 
     </div>
     </main>

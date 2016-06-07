@@ -36,6 +36,7 @@ footer.page-footer {
     background-color: #5F5673;
     color: #efebd9;
 }
+
 /*to keep empty grey 'footer' at bottom of screen*/
 main {
     flex: 1 0 auto;
@@ -75,4 +76,13 @@ input[type=password]:focus:not([readonly])+label {
 
 .card.small {
     height: 215px;
+}
+
+#delete-btn {
+    background-color: #A77879;
+}
+
+#welcome-user {
+    color: #5F5673;
+
 }

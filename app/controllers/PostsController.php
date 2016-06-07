@@ -127,7 +127,13 @@ class PostsController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		return 'deletes a specific post based on ID';
+		$post = Post::find($id);
+        $post->delete();
+
+        if($post->delete()) {
+			Session::flash('successMessage', 'Your post was deleted');
+			return Redirect::action('PostsController@index');
+			}
 	}
 
 }
