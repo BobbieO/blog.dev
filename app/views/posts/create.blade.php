@@ -9,7 +9,7 @@
     <main>
     <div class="container"> 
         <div class="row">
-            <div class="col sm8">
+            <div class="col s8">
                 <h2>Create a New Post</h2>
             </div>
         </div>
