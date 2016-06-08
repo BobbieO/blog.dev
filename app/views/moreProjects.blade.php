@@ -23,7 +23,7 @@
                         A basic simple simon game using JavaScript and jQuery for function, along with Twitter Bootstrap and CSS for styling. This game is compatible with all screen sizes.  
                     </p>
                 </div>
-                <div class="card-action">
+                <div class="card-action center-align">
                     <a class="purple-text" href="http://bobbieo.github.io/simpleSimon.html" target="_blank">Play the Game</a>
                     <a class="purple-text" href="https://github.com/BobbieO/Simple-Simon" target="_blank">GitHub</a>
                 </div>
@@ -41,7 +41,7 @@
                         This is an interactive web page using PHP, JavaScript, and jQuery for function, and CSS for styling. This page is best viewed on a medium sized screen.
                     </p>
                 </div>
-                <div class="card-action">
+                <div class="card-action center-align">
                     <a class="purple-text" href="/randomQuestGenerator.php" target="_blank">View Page</a>
                     <a class="purple-text" href="https://github.com/BobbieO/Codeup-Web-Exercises/blob/master/public/server-name-generator.php" target="_blank">GitHub</a>
                 </div>
@@ -59,7 +59,7 @@
                         An interactive weather map using JavaScript and jQuery, with Twitter Bootstrap and CSS for styling. Google Maps API and Open Weather API together retrieve the weather from any location in the world. Compatible with all screen sizes.
                     </p>
                 </div>
-                <div class="card-action">
+                <div class="card-action center-align">
                     <a class="purple-text" href="http://bobbieo.github.io/weather_map.html" target="_blank">View Page</a>
                     <a class="purple-text" href="https://github.com/BobbieO/bobbieo.github.io/blob/master/weather_map.html" target="_blank">GitHub</a>
                 </div>
@@ -78,8 +78,7 @@
                         A full-stack database application featuring PHP for function, along with Google Materialize and CSS for styling. Users can navigate among the listed parks, and add their own parks.  
                     </p>
                 </div>
-                <div class="card-action">
-                    <a class="purple-text" href="#" target="_blank">Need to Link</a>
+                <div class="card-action center-align">
                     <a class="purple-text" href="https://github.com/BobbieO/Codeup-Web-Exercises/blob/master/public/national_parks.php" target="_blank">GitHub</a>
                 </div>
             </div>
