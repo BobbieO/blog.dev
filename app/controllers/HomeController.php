@@ -15,11 +15,6 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showWelcome()
-	{
-		return View::make('hello');
-	}
-
 	public function rollDice($guess)
 	{
 	    $random = mt_rand(1, 6);
