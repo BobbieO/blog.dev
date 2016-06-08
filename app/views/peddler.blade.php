@@ -14,20 +14,10 @@
             </div>
             <h1 class="down">Peddler's Corner</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Peddler's Corner is full-stack modified Craigslist clone completed in a group of three people as part of the Codeup program. The sites uses Twitter Bootstrap and CSS for styling, and PHP and MySQL for functionality and database management.
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                This application allows for both registered and non-registered users to browse the full site, including individual items's pages as well as the full index of available services and merchandise. Only registered users may post items for sale. The site features user sign up, login, and logout, as well as an administrative user who has powers over the whole site. Users may create, edit, and delete thier own ads, and the administrator can delete any user's ad. 
             </p>
         </div>
 
