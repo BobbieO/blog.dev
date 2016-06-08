@@ -80,6 +80,11 @@ class HomeController extends BaseController {
 		return View::make('blog');
 	}
 
+	public function showPeddler()
+	{
+		return View::make('peddler');
+	}
+
 	public function showMore()
 	{
 		return View::make('moreProjects');
