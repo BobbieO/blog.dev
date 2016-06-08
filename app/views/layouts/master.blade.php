@@ -26,8 +26,7 @@
             <li><a class="purple-text" href="{{{action('HomeController@showWizard')}}}">Wizard Vs Dragon</a></li>
             <li><a class="purple-text" href="{{{action('HomeController@showButterfly')}}}">Catch A Butterfly</a></li>
             <li><a class="purple-text" href="{{{action('HomeController@showBlog')}}}">Blog</a></li>
-            <!-- Need to link etc -->
-            <!-- <li><a class="purple-text" href="#">Put Adlister Here</a></li> -->
+            <li><a class="purple-text" href="{{{action('HomeController@showPeddler')}}}">Peddler's Corner</a></li>
             <li class="divider"></li>
             <li><a class="purple-text" href="{{{action('HomeController@showMore')}}}">More Projects</a></li>
         </ul>
@@ -42,29 +41,11 @@
                     <li><a href="/home#resume">Resume</a></li>
                     <!-- Dropdown Trigger -->
                     <li><a class="dropdown-button" href="#!" data-activates="dropdownJava">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li> 
-                        <form>
-                            <div class="input-field">
-                                <input id="search" type="search" required>
-                                <label for="search"><i class="material-icons">search</i></label>
-                                <i class="material-icons">close</i>
-                            </div>
-                        </form>
-                    </li>
                 </ul>
             </div>
             </nav>
             <!-- for mobile view -->
             <ul class="side-nav" id="mobile">
-                <li> 
-                    <form>
-                        <div class="input-field">
-                          <input id="search" type="search" required>
-                          <label for="search"><i class="material-icons">search</i></label>
-                          <i class="material-icons">close</i>
-                        </div>
-                      </form>
-                </li>
                 <li><a class="purple-text"href="/home#contact">Contact Me</a></li>
                 <li><a class="purple-text"href="/home#resume">Resume</a></li>
                 <li class="divider"></li>
