@@ -33,9 +33,9 @@ hr {
 }
 
 div.home-image{
-    background: url(/img/purpleLaptop.jpg) no-repeat center;
+    background: url(/img/purpleLaptop.jpg) /*no-repeat*/ center;
     background-size: cover;
-    margin: 0;
+    margin-top: -15px;
     height: 300px;
 }
 

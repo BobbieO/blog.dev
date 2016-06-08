@@ -36,16 +36,35 @@
             <div class="nav-wrapper grey darken-3">
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
                 <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="text right hide-on-med-and-down"> 
+                <ul class="text right hide-on-med-and-down">
+                    
                     <li><a href="/home#contact">Contact Me</a></li>
                     <li><a href="/home#resume">Resume</a></li>
                     <!-- Dropdown Trigger -->
                     <li><a class="dropdown-button" href="#!" data-activates="dropdownJava">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li> 
+                        <form>
+                            <div class="input-field">
+                                <input id="search" type="search" required>
+                                <label for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </li>
                 </ul>
             </div>
             </nav>
             <!-- for mobile view -->
             <ul class="side-nav" id="mobile">
+                <li> 
+                    <form>
+                        <div class="input-field">
+                          <input id="search" type="search" required>
+                          <label for="search"><i class="material-icons">search</i></label>
+                          <i class="material-icons">close</i>
+                        </div>
+                      </form>
+                </li>
                 <li><a class="purple-text"href="/home#contact">Contact Me</a></li>
                 <li><a class="purple-text"href="/home#resume">Resume</a></li>
                 <li class="divider"></li>
@@ -55,9 +74,9 @@
                 <li><a class="purple-text" href="{{{action('HomeController@showMore')}}}">More Projects</a></li>
             </ul>
 
-    @yield('splash')
 
     </header>
+    @yield('splash')
 
 
     @yield('content')
