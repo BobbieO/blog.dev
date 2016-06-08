@@ -2,8 +2,8 @@
 
 @section('title')
     Bobbie O'Connor Home
-    <a id="top"></a>
 @stop
+    <a id="top"></a>
 
 @section('splash')
     <div class="home-image valign-wrapper">
