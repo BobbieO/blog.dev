@@ -12,7 +12,7 @@
             </div>
             <h1 class="down">Wizard Vs Dragon</h1>
             <p>
-                An interactive web page using JavaScript and jQuery for function, and CSS3 and Bootstrap to assist in styling.
+                An interactive web page using JavaScript and jQuery for function, and CSS3 and Twitter Bootstrap to assist in styling.
             </p>
 
             <p>

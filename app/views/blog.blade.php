@@ -14,7 +14,7 @@
             </div>
             <h1 class="down">Blog of Lorem</h1>
             <p>
-                This is a fully functional example blog using PHP and Laravel for function, and Materialize and CSS for styling.
+                This is a fully functional example blog using PHP and Laravel for function, and Google Materialize and CSS for styling.
             </p>
             <p>
                 This blog is an application within the larger portfolio project you are viewing now. The blog itself features the ability to create, edit, and delete blog posts for a master user. Guests may view the complete index of posts, or select individual posts to view. 

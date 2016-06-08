@@ -13,7 +13,7 @@
             </div>
             <h1 class="down">Catch a Butterfly</h1>
             <p>
-                A non-traditional whack-a-mole game using Bootstrap and CSS for styling, and JavaScript and jQuery for function.
+                A non-traditional whack-a-mole game using Twitter Bootstrap and CSS for styling, and JavaScript and jQuery for function.
             </p>
 
             <p>
