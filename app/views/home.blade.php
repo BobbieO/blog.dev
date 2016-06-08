@@ -104,7 +104,7 @@
         </div>
 
         <div class="row">
-            <div class="col s12">
+            <div class="right-align col s12">
                 <a href="#top">Return to top</a>
             </div>
         </div>
@@ -140,7 +140,7 @@
         </div>
 
         <div class="row">
-            <div class="col s12">
+            <div class="right-align col s12">
                 <a href="#top">Return to top</a>
             </div>
         </div>
