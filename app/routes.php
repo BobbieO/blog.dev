@@ -15,8 +15,6 @@ Route::get('/', 'HomeController@showHome');
 
 Route::get('/resume', 'HomeController@showResume');
 
-Route::get('/rolldice/{guess}', 'HomeController@rollDice');
-
 Route::get('/home', 'HomeController@showHome');
 
 Route::get('/wizard', 'HomeController@showWizard');

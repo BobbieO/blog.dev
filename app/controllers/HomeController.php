@@ -15,21 +15,6 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function rollDice($guess)
-	{
-	    $random = mt_rand(1, 6);
-
-	    if($random == $guess) {
-	        $message = "You won!";
-	    } else {
-	        $message = "You lost, try again.";
-	    }
-
-	    $data = array('number' => $random, 'guess' => $guess, 'message' => $message);
-
-	    return View::make('roll-dice')->with($data);    
-	}
-
 	public function showResume()
 	{
     	return View::make('resume');
