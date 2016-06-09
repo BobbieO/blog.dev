@@ -71,13 +71,13 @@
                 <span class="valign"><img src="/img/mysql.png"></span>
             </div>
             <div class="col s3">
-                <img src="/img/php.jpeg">
+                <img src="/img/php.png">
             </div>
             <div class="col s3">
                 <img src="/img/laravel.png">
             </div>
             <div class="col s3">
-                <img src="/img/sequelpro.jpeg">
+                <img src="/img/sequelpro.png">
             </div>
         </div>
 
