@@ -47,7 +47,7 @@
 
         <div class="row">
             <div class="col s12 center-align">
-                <a href="/pdfs/resume.pdf" target="_blank" class="btn">View Resume</a>
+                <a href="/pdfs/Resume.pdf" target="_blank" class="btn">View Resume</a>
             </div>
         </div>
 
