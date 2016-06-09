@@ -98,7 +98,7 @@
 
         <div class="row center-align">
             <div>
-                <img src="/img/pixelmator.jpeg">
+                <img src="/img/pixelmator.png">
             </div>
         </div>
 
