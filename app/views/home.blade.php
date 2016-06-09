@@ -86,7 +86,7 @@
                 <img src="/img/gitHub.png">
             </div>
             <div class="col s3">
-                <img src="/img/sublime3.jpg">
+                <img src="/img/sublime3.png">
             </div>
             <div class="col s3">
                 <img src="/img/bootstrap.jpeg">
