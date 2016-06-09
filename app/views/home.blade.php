@@ -39,16 +39,15 @@
         <hr>
 
         <div class="row">
+            <a id="resume"></a>
             <div class="col s12 center-align">
                 <h3>Skills and Resume</h3>
-                <a id="resume"></a>
             </div>
         </div>
 
         <div class="row">
             <div class="col s12 center-align">
-            <!-- hidden until resume is completed -->
-                <!-- <a href="blog.dev/pdfs/resume.pdf" target="_blank" class="btn">View Resume</a> -->
+                <a href="/pdfs/resume.pdf" target="_blank" class="btn">View Resume</a>
             </div>
         </div>
 
@@ -112,9 +111,9 @@
         <hr>
 
         <div class="row">
+            <a id="contact"></a>
             <div class="col s12">
                 <h3 class="center-align">Contact Me</h3>
-                <a id="contact"></a>
                 <div class="row social valign-wrapper">
 
                     <div class="col s6 valign center-align">

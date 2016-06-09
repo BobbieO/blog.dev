@@ -96,6 +96,7 @@ i.nav-arrow {
 .btn {
     background-color: #9c27b0;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 .btn:hover {
