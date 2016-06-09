@@ -26,7 +26,7 @@
         @endforeach
 
         <div class="row">
-            <p>{{ $posts->links() }}</p>
+            <p>{{ $posts->appends(Request::only('q'))->links() }}</p>
         </div>
     </div>
     </main>
