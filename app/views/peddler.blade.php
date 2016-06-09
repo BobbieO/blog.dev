@@ -33,7 +33,7 @@
                 <div class="col s6 instrImg">
                     <h3 class="center-align">Click to View</h3>
                     <div class="center-align">
-                        <a href="http://peddlerscorner.bobbieoconnor.me/" target="_blank"><img class="image" src="/img/PCHomeScreenShot.jpg"></a>
+                        <a href="http://peddlerscorner.bobbieoconnor.me/" target="_blank"><img class="image" src="/img/screenShotPeddler.jpg"></a>
                     </div>
                 </div>
             </div>
