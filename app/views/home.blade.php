@@ -92,7 +92,7 @@
                 <img src="/img/bootstrap.jpeg">
             </div>
             <div class="col s3">
-                <img src="/img/materialize.jpeg">
+                <img src="/img/materialize.png">
             </div>
         </div>
 
