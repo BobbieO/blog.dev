@@ -48,10 +48,17 @@
             <ul class="side-nav" id="mobile">
                 <li><a class="purple-text"href="/home#contact">Contact Me</a></li>
                 <li><a class="purple-text"href="/home#resume">Resume</a></li>
+                
                 <li class="divider"></li>
-                <li><a class="purple-text" href="{{{action('HomeController@showWizard')}}}">Wizard Vs Dragon</a></li>
-                <li><a class="purple-text" href="{{{action('HomeController@showButterfly')}}}">Catch A Butterfly</a></li>
+
+                <li><a class="purple-text" href="{{{action('HomeController@showWizard')}}}">Wizard</a></li>
+
+                <li><a class="purple-text" href="{{{action('HomeController@showButterfly')}}}">Butterfly</a></li>
+               
                 <li><a class="purple-text" href="{{{action('HomeController@showBlog')}}}">Blog</a></li>
+
+                <li class="divider"></li>
+
                 <li><a class="purple-text" href="{{{action('HomeController@showMore')}}}">More Projects</a></li>
             </ul>
 
