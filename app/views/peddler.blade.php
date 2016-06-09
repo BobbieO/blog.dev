@@ -27,7 +27,7 @@
                     <ol>
                         <li>Explore the site.</li>
                         <li>Read the clever ads.</li>
-                        <li>Create your own user and ad.</li>
+                        <li>Create your own account and ad.</li>
                     </ol>
                 </div>
                 <div class="col s6 instrImg">
