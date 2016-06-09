@@ -20,7 +20,6 @@
 
 </head>
 <body>
-    <header>
         <nav>
             <div class="nav-wrapper">
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
@@ -36,15 +35,15 @@
                         <li><a href="{{{action('PostsController@create')}}}">Create a Post</a></li>
                         <li><a href="{{{action('HomeController@doLogout')}}}">Log Out</a></li>
                     @else 
-                        <li><a href="{{{action('HomeController@loginForm')}}}">Log In</a></li>
+                       <li><a href="{{{action('HomeController@loginForm')}}}">Log In</a></li>
                     @endif
 
                     <li>
                         <form>
                             <div class="input-field">
-                                    <input name="q" id="search" type="search" required action="{{action('PostsController@index')}}">
-                                    <label for="search"><i class="material-icons">search</i></label>
-                                    <i class="material-icons">close</i>
+                                <label for="search"><i class="material-icons">search</i></label>
+                                <input name="q" id="search" type="search" required action="{{action('PostsController@index')}}">
+                                <i class="material-icons">close</i>
                             </div>
                         </form>
                     </li>
@@ -66,6 +65,7 @@
                 </ul>
             </div>
           </nav>
+    <header>
     </header>
 
     @yield('content')

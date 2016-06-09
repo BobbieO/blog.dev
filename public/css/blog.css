@@ -24,6 +24,20 @@ nav .brand-logo, nav ul a {
     padding-right: 30px;
 }
 
+nav .input-field {
+    padding: 1rem 2.1rem;
+}
+
+.input-field input[type=search],
+.input-field input[type=search]:focus {
+    padding: 0;
+    background-color: #efebd9;
+}
+
+nav .input-field label.active i {
+    color: #efebd9;
+}
+
 .side-nav {
     background-color: #efebd9;    
 }
