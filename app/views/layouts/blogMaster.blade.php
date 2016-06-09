@@ -38,6 +38,16 @@
                     @else 
                         <li><a href="{{{action('HomeController@loginForm')}}}">Log In</a></li>
                     @endif
+
+                    <li>
+                        <form>
+                            <div class="input-field">
+                                    <input name="q" id="search" type="search" required action="{{action('PostsController@index')}}">
+                                    <label for="search"><i class="material-icons">search</i></label>
+                                    <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </li>
                 </ul>
                 <!-- mobile view -->
                 <ul class="side-nav" id="mobile">
