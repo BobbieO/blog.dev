@@ -24,7 +24,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3 class="center-align">Instructions</h3>
+                <h3 class="center-align">Things to Do</h3>
                     <ol>
                         <li>Explore the site.</li>
                         <li>Admire the many lorems.</li>
