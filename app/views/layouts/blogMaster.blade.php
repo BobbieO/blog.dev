@@ -50,23 +50,31 @@
                 </ul>
                 <!-- mobile view -->
                 <ul class="side-nav" id="mobile">
-                    @if (Auth::check())
-                        <li id="welcome-user">Welcome {{{Auth::user()->username}}}</li>
-                    @endif
+                    <li>
+                        <form>
+                            <div class="input-field">
+                                <label for="search"><i class="material-icons">search</i></label>
+                                <input name="q" id="search" type="search" required action="{{action('PostsController@index')}}">
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </li>
 
-                    <li><a href="{{{action('PostsController@index')}}}">Show All Posts</a></li>
+                    <li><a href="{{{action('PostsController@index')}}}">Show All</a></li>
+
+                    <li><hr></li>
 
                     @if (Auth::check())
-                        <li><a href="{{{action('PostsController@create')}}}">Create a Post</a></li>
+                        <li><a href="{{{action('PostsController@create')}}}">Create</a></li>
+                        <li><hr></li>
                         <li><a href="{{{action('HomeController@doLogout')}}}">Log Out</a></li>
+                        <li><hr></li>
                     @else 
                         <li><a href="{{{action('HomeController@loginForm')}}}">Log In</a></li>
                     @endif     
                 </ul>
             </div>
           </nav>
-    <header>
-    </header>
 
     @yield('content')
 

@@ -42,8 +42,22 @@ nav .input-field label.active i {
     background-color: #efebd9;    
 }
 
+.side-nav .input-field input[type=search],
+.side-nav .input-field input[type=search]:focus {
+    font-size: 2.2rem;
+}
+
+.side-nav .input-field label.active i,
+.side-nav .input-field label i {
+    color: #3b3b35;
+}
+
 .side-nav a {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 
 .box {
