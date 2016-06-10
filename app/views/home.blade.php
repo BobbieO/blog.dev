@@ -89,7 +89,7 @@
                 <img src="/img/sublime3.png">
             </div>
             <div class="col s3">
-                <img src="/img/bootstrap.jpeg">
+                <img src="/img/bootstrap.png">
             </div>
             <div class="col s3">
                 <img src="/img/materialize.png">
