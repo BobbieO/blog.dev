@@ -17,7 +17,7 @@
                 This is a fully functional example blog using PHP and Laravel for function, and Google Materialize and CSS for styling.
             </p>
             <p>
-                This blog is an application within the larger portfolio project you are viewing now. The blog itself features the ability to create, edit, and delete blog posts for a master user. Guests may view the complete index of posts, or select individual posts to view. 
+                The blog itself features the ability to create, edit, and delete blog posts for a master user. Guests may view the complete index of posts, select individual posts to view, or search post's titles and content for specific topics. 
             </p>
         </div>
 
