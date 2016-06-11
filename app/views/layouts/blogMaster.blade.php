@@ -20,6 +20,7 @@
 
 </head>
 <body>
+    <header>
         <nav>
             <div class="nav-wrapper">
                 <a href="{{{action('HomeController@showHome')}}}" class="brand-logo">BHO</a>
@@ -74,7 +75,8 @@
                     @endif     
                 </ul>
             </div>
-          </nav>
+        </nav>
+    </header>
 
     @yield('content')
 
