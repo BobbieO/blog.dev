@@ -74,7 +74,7 @@
                 <img src="/img/php.png">
             </div>
             <div class="col s3">
-                <img src="/img/laravel.png">
+                <img src="/img/laravel4.png">
             </div>
             <div class="col s3">
                 <img src="/img/sequelpro.png">
