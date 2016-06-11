@@ -16,13 +16,13 @@
     <div class="container">
         <div class="row">
             <div class="col s12 center-align">
-                <p class="bigger">Hello and welcome to my site!</p>
+                <p class="bigger flow-text">Hello and welcome to my site!</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col s12 center-align">
-                <p class="bigger">
+                <p class="bigger flow-text">
                     I'm a front-end web developer based in San Antonio, TX. I am available for full-time work. I enjoy designing attractive, intuitive, user-friendly websites. Currently I am honing my CSS skills, reading about web design, and speculatively eyeing ReactJS.
                 </p>
             </div>
@@ -30,7 +30,7 @@
 
         <div class="row">
             <div class="col s12 center-align">
-                <p class="bigger">
+                <p class="bigger flow-text">
                     When I'm not coding, you can find me playing MMOs, reading a book, or watching TV. As long as there are aliens, monsters, and/or explosions involved, I'm in!
                 </p>
             </div>
