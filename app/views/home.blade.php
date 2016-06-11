@@ -6,7 +6,7 @@
     <a id="top"></a>
 
 @section('splash')
-    <div class="home-image valign-wrapper">
+    <div class="home-image valign-wrapper z-depth-1">
         <h1 class="home-splash valign">Bobbie O'Connor</h1>
     </div>
 @stop
@@ -16,13 +16,13 @@
     <div class="container">
         <div class="row">
             <div class="col s12 center-align">
-                <p class="bigger flow-text">Hello and welcome to my site!</p>
+                <p class="bigger">Hello and welcome to my site!</p>
             </div>
         </div>
 
         <div class="row">
             <div class="col s12 center-align">
-                <p class="bigger flow-text">
+                <p class="bigger">
                     I'm a front-end web developer based in San Antonio, TX. I am available for full-time work. I enjoy designing attractive, intuitive, user-friendly websites. Currently I am honing my CSS skills, reading about web design, and speculatively eyeing ReactJS.
                 </p>
             </div>
@@ -30,7 +30,7 @@
 
         <div class="row">
             <div class="col s12 center-align">
-                <p class="bigger flow-text">
+                <p class="bigger">
                     When I'm not coding, you can find me playing MMOs, reading a book, or watching TV. As long as there are aliens, monsters, and/or explosions involved, I'm in!
                 </p>
             </div>
@@ -97,7 +97,7 @@
         </div>
 
         <div class="row center-align">
-            <div>
+            <div class="col s12">
                 <img src="/img/pixelmator.png">
             </div>
         </div>
@@ -117,11 +117,11 @@
                 <div class="row social valign-wrapper">
 
                     <div class="col s6 valign center-align">
-                        <a href="mailto:bobbie134@me.com"><i class="small material-icons">email</i>Email Me!</a>
+                        <a href="mailto:bobbie134@me.com"><i class="small material-icons">email</i><span class="bigger">Email</span></a>
                     </div>
 
                     <div class="col s6 valign center-align">
-                        <a href="https://github.com/BobbieO" target="_blank"><img src="/img/smallGitHub.png">View My GitHub</a>
+                        <a href="https://github.com/BobbieO" target="_blank"><img src="/img/smallGitHub.png"><span class="bigger">GitHub</span></a>
                     </div>
                 </div>
 
@@ -131,7 +131,7 @@
                     </div>
 
                     <div class="col s6 valign center-align">
-                        <a href="https://www.linkedin.com/in/bobbieo134" target="_blank"><img src="/img/linkedinLogo.png"></span></a>
+                        <a href="https://www.linkedin.com/in/bobbieo134" target="_blank"><img src="/img/linkedinLogo.png"></a>
                         <p>
                     </div>
                 </div>

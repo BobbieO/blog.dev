@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <title>@yield('title')</title>
-
+    
     <!-- font -->
     <link href='https://fonts.googleapis.com/css?family=Vidaloka' rel='stylesheet' type='text/css'>
 
