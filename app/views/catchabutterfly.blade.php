@@ -25,7 +25,7 @@
             </p>
             
             <p>
-                The game is compatible with laptops, tablets, and mobiles in landscape view.
+                The game is compatible with multiple screen sizes, and with mobile in landscape view.
             </p>
         </div>
         <div>
