@@ -20,7 +20,7 @@
                 </div>
                 <div class="card-content">
                     <p>
-                        A basic simple simon game using JavaScript and jQuery for function, along with Twitter Bootstrap and CSS for styling. This game is compatible with all screen sizes.  
+                        A basic simple simon game using JavaScript and jQuery for function, along with Bootstrap and CSS for styling. This game is compatible with all screen sizes.  
                     </p>
                 </div>
                 <div class="card-action center-align">
@@ -56,7 +56,7 @@
                 </div>
                 <div class="card-content">
                     <p>
-                        An interactive weather map using JavaScript and jQuery, with Twitter Bootstrap and CSS for styling. Google Maps API and Open Weather API together retrieve the weather from any location in the world. Compatible with all screen sizes.
+                        An interactive weather map using JavaScript and jQuery, with Bootstrap and CSS for styling. Google Maps API and Open Weather API together retrieve the weather from any location in the world. Compatible with all screen sizes.
                     </p>
                 </div>
                 <div class="card-action center-align">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="card-content">
                     <p>
-                        A full-stack database application featuring PHP for function, along with Google Materialize and CSS for styling. Users can navigate among the listed parks, and add their own parks.  
+                        A full-stack database application featuring PHP for function, along with Materialize and CSS for styling. Users can navigate among the listed parks, and add their own parks.  
                     </p>
                 </div>
                 <div class="card-action center-align">
