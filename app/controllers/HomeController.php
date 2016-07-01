@@ -65,6 +65,11 @@ class HomeController extends BaseController {
 		return View::make('peddler');
 	}
 
+	public function showFlit()
+	{
+		return View::make('flit');
+	}
+
 	public function showMore()
 	{
 		return View::make('moreProjects');
