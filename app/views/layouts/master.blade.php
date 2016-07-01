@@ -27,6 +27,7 @@
             <li><a class="purple-text" href="{{{action('HomeController@showButterfly')}}}">Catch A Butterfly</a></li>
             <li><a class="purple-text" href="{{{action('HomeController@showBlog')}}}">Blog</a></li>
             <li><a class="purple-text" href="{{{action('HomeController@showPeddler')}}}">Peddler's Corner</a></li>
+            <li><a class="purple-text" href="{{{action('HomeController@showFlit')}}}">FLIT</a></li>
             <li class="divider"></li>
             <li><a class="purple-text" href="{{{action('HomeController@showMore')}}}">More Projects</a></li>
         </ul>
@@ -56,6 +57,10 @@
                 <li><a class="purple-text" href="{{{action('HomeController@showButterfly')}}}">Butterfly</a></li>
                
                 <li><a class="purple-text" href="{{{action('HomeController@showBlog')}}}">Blog</a></li>
+
+                 <li><a class="purple-text" href="{{{action('HomeController@showPeddler')}}}">Peddler</a></li>
+
+                <li><a class="purple-text" href="{{{action('HomeController@showFlit')}}}">FLIT</a></li>
 
                 <li class="divider"></li>
 
