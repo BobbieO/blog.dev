@@ -45,10 +45,13 @@ extract(pageController());
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Random Quest Generator <?=$scrollTwo?></title>
 
+    <meta charset="UTF-8">
+
+    <title>BHO Random Quest Generator</title>
+    
     <!-- font -->
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 
@@ -60,49 +63,51 @@ extract(pageController());
 
 </head>
 <body id="background">
+    <main class="bigScroll">
     <div class="container">
+        <div class="col s12">
+            <div class="dialogue row">
+                <div class="col s12">
+                    <!-- to output randomized stuff to proper spot on page -->
+                    <h1 class="showMe text">Fetch me <?= $scrollMsg;?>!</h1>
+                        <p class="wizTalk text">We don't have time for menial tasks.</p>
+                </div>
+            </div>
 
-        <div class="dialogue row">
+            <div class="position row">
+                <div class="col s4 objects right-align">
+                    <span class="wizard"><img class="responsive-img" src="/img/questWizard.png"></span>
+                </div>
 
-            <!-- to output randomized stuff to proper spot on page -->
-            <h1 class="showMe text">Fetch me <?= $scrollMsg;?>!</h1>
-                <p class="wizTalk text">We don't have time for menial tasks.</p>
+                <div class="col s4 objects">
+                    <span class="miniScroll"><img class="responsive-img"  src="/img/rolledScroll.png"></span>
+                </div>
 
+                <div class="col s4 objects right-align">
+                    <span class="warrior"><img class="responsive-img"  src="/img/warrior.png"></span>
+                </div>
+            </div>
+
+            <div class="row" id="attriBtn">
+                <div class="col s6">
+                    <p class="small">Some images from Perfect World International, arc &#153</p>
+                </div>
+                <div class="col s6">
+                    <button id="newQuest">New Quest</button>
+                </div>
+            </div>
         </div>
-
-        <div class="position row">
-
-            <div class="col s4 objects">
-                <span class="wizard"><img src="/img/questWizard.png"></span>
-            </div>
-
-            <div class="col s4 objects">
-                <span class="miniScroll"><img src="/img/rolledScroll.png"></span>
-            </div>
-
-            <div class="col s4 objects">
-                <span class="warrior"><img src="/img/warrior.png"></span>
-            </div>
-
-        </div>
-
-        <div class="row" id="attriBtn">
-            <div class="col s6">
-                <p class="small">Some images from Perfect World International, arc &#153</p>
-            </div>
-            <div class="col s6">
-                <button id="newQuest">New Quest</button>
-            </div>
-        </div>
-
     </div>
-
+</main>
+   
 <script src="/js/jquery.js"></script>
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
-<script src="/js/randomQuestGenerator.js"></script>
+<script src="/js/randomQuestGenerator.js"></script>         
+
+
 </body>
 </html>
 
