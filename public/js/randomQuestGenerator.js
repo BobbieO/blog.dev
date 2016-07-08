@@ -22,17 +22,17 @@
                     "color": "transparent",
                     "text-shadow": "0 0 transparent"
                 });
-            $(".container").css(
+            $(".bigScroll").css(
                 {
                     "background-image": "url(/img/scroll.png)",
                     "background-repeat": "no-repeat",
                     "background-position": " top center",
-                    "background-size": "50%"
+                    "background-size": "75%"
                 });
             $(".showMe").css(
                 {
                     "opacity": "1",
-                    "margin-top": "250px",
+                    "margin-top": "14em",
                 });
             $("#attriBtn").addClass("position");
         });
