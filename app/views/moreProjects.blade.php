@@ -38,7 +38,7 @@
                 </div>
                 <div class="card-content">
                     <p>
-                        This is an interactive web page using PHP, JavaScript, and jQuery for function, and CSS for styling. This page is best viewed on a medium sized screen.
+                        This is an interactive web page using PHP, JavaScript, and jQuery for function, and CSS for styling. This page is best viewed on a medium sized screen or mobile in landscape view.
                     </p>
                 </div>
                 <div class="card-action center-align">
