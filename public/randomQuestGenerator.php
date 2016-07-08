@@ -14,10 +14,10 @@ function pageController()
     //pick random index of adjectives array
     $randomAdj = array_rand($adjectives);
 
-    // //pick random index of nouns arrays
+    //pick random index of nouns arrays
     $randomNoun = array_rand($nouns);
 
-    // //variables for holding the randomly generated adjective and noun values (to be inside function)
+    //variables for holding the randomly generated adjective and noun values (to be inside function)
     $fetchPart = $bodyParts[$randomPart];
     $fetchAdj = $adjectives[$randomAdj];
     $fetchNoun = $nouns[$randomNoun];
@@ -48,37 +48,60 @@ extract(pageController());
 <html>
 <head>
     <title>Random Quest Generator <?=$scrollTwo?></title>
-    <!-- my css -->
-    <link rel="stylesheet" type="text/css" href="/css/randomQuestGenerator.css">
 
     <!-- font -->
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="/css/randomQuestGenerator.css">
 
 </head>
 <body id="background">
     <div class="container">
 
-        <div class="dialogue">
+        <div class="dialogue row">
+
             <!-- to output randomized stuff to proper spot on page -->
             <h1 class="showMe text">Fetch me <?= $scrollMsg;?>!</h1>
                 <p class="wizTalk text">We don't have time for menial tasks.</p>
+
         </div>
 
-        <div class="position">
-            <div class="objects"><span class="wizard"><img src="/img/questWizard.png"></span></div>
+        <div class="position row">
 
-            <div class="objects"><span class="miniScroll"><img src="/img/rolledScroll.png"></span></div>
+            <div class="col s4 objects">
+                <span class="wizard"><img src="/img/questWizard.png"></span>
+            </div>
 
-            <div class="objects"><span class="warrior"><img src="/img/warrior.png"></span></div>
+            <div class="col s4 objects">
+                <span class="miniScroll"><img src="/img/rolledScroll.png"></span>
+            </div>
+
+            <div class="col s4 objects">
+                <span class="warrior"><img src="/img/warrior.png"></span>
+            </div>
+
         </div>
 
-        <div id="attriBtn">
-            <p class="small">Some images from Perfect World International, arc &#153</p>
-            <button id="newQuest">New Quest</button>
+        <div class="row" id="attriBtn">
+            <div class="col s6">
+                <p class="small">Some images from Perfect World International, arc &#153</p>
+            </div>
+            <div class="col s6">
+                <button id="newQuest">New Quest</button>
+            </div>
         </div>
 
     </div>
+
 <script src="/js/jquery.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
 <script src="/js/randomQuestGenerator.js"></script>
 </body>
 </html>
