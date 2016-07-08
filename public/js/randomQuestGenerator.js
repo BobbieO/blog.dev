@@ -32,7 +32,7 @@
             $(".showMe").css(
                 {
                     "opacity": "1",
-                    "margin-top": "12em",
+                    "margin-top": "10em",
                 });
             $("#attriBtn").addClass("position");
         });
