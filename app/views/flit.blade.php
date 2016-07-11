@@ -23,7 +23,7 @@
         <div>
             <div class="container row">
                 <div class="col s6 instrImg">
-                <h3 class="center-align">Things to Do</h3>
+                <h3 class="center-align">Site Instructions</h3>
                     <ol>
                         <li>Sign up for the site.</li>
                         <li>Create projects and clients.</li>
